@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+import { HomeNavButton } from '@/components/HomeNavButton';
+import { LinkedIn } from '@/components/LinkedInLogo';
 import LocaleSwitcher from '@/components/LocaleSwitcher';
 import { BaseTemplate } from '@/templates/BaseTemplate';
 
@@ -16,66 +18,44 @@ export default function Layout(props: {
     <BaseTemplate
       leftNav={(
         <>
-          <li>
+          <li className="w-20 md:w-32">
             <Link
               href="/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
-              {t('home_link')}
+              <HomeNavButton></HomeNavButton>
             </Link>
           </li>
           <li>
             <Link
-              href="/about/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              href="/development/"
+              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
-              {t('about_link')}
+              {t('development_link')}
             </Link>
           </li>
           <li>
             <Link
-              href="/guestbook/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              href="/design/"
+              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
-              {t('guestbook_link')}
+              {t('design_link')}
             </Link>
           </li>
           <li>
             <Link
-              href="/portfolio/"
-              className="border-none text-gray-700 hover:text-gray-900"
+              href="/resume/"
+              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
-              {t('portfolio_link')}
+              {t('resume_link')}
             </Link>
-          </li>
-          <li>
-            <a
-              className="border-none text-gray-700 hover:text-gray-900"
-              href="https://github.com/ixartz/Next-js-Boilerplate"
-            >
-              GitHub
-            </a>
           </li>
         </>
       )}
       rightNav={(
         <>
-          <li>
-            <Link
-              href="/sign-in/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('sign_in_link')}
-            </Link>
-          </li>
-
-          <li>
-            <Link
-              href="/sign-up/"
-              className="border-none text-gray-700 hover:text-gray-900"
-            >
-              {t('sign_up_link')}
-            </Link>
+          <li className="size-5 md:size-8">
+            <LinkedIn></LinkedIn>
           </li>
 
           <li>

@@ -172,7 +172,7 @@ npm run dev
 
 Open http://localhost:3000 with your favorite browser to see your project.
 
-### Set up authentication
+### Set up authentication - NOT APPLICABLE
 
 Create a Clerk account at [Clerk.com](https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate) and create a new application in Clerk Dashboard. Then, copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` into `.env.local` file (not tracked by Git):
 
@@ -229,10 +229,10 @@ After defining the environment variables in your GitHub Actions, your localizati
 
 You can easily configure Next js Boilerplate by making a search in the whole project with `FIXME:` for making quick customization. Here is some of the most important files to customize:
 
-- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/
-- `src/utils/AppConfig.ts`: configuration file
-- `src/templates/BaseTemplate.tsx`: default theme
-- `next.config.mjs`: Next.js configuration
+- `public/apple-touch-icon.png`, `public/favicon.ico`, `public/favicon-16x16.png` and `public/favicon-32x32.png`: your website favicon, you can generate from https://favicon.io/favicon-converter/ - DONE
+- `src/utils/AppConfig.ts`: configuration file  - DONE
+- `src/templates/BaseTemplate.tsx`: default theme - TO UPDATE LATER
+- `next.config.mjs`: Next.js configuration - TO UPDATE LATER
 - `.env`: default environment variables
 
 You have access to the whole code source if you need further customization. The provided code is only example for you to start your project. The sky is the limit 🚀.
