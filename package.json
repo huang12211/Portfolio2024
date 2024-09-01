@@ -1,7 +1,7 @@
 {
-  "name": "next-js-boilerplate",
+  "name": "elaine-portfolio-2024",
   "version": "3.55.3",
-  "author": "Ixartz (https://github.com/ixartz)",
+  "author": "huang12211 (https://github.com/huang12211)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev",

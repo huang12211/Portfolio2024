@@ -1,6 +1,9 @@
 {
   "RootLayout": {
     "home_link": "Home",
+    "development_link": "Dev Work",
+    "design_link": "Design Work",
+    "resume_link": "Resume",
     "about_link": "About",
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
@@ -8,13 +11,20 @@
     "sign_up_link": "Sign up"
   },
   "BaseTemplate": {
-    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
-    "made_with": "Made with"
+    "description": "Elaine's Portfolio",
+    "made_with": "Made with a premium blend of coffee and chaos"
   },
   "Index": {
-    "meta_title": "Next.js Boilerplate Presentation",
-    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
-    "sponsors_title": "Sponsors"
+    "meta_title": "Elaine Huang's Portfolio",
+    "meta_description": "Welcome to Elaine Huang's Portfolio.",
+    "introduce_me_paragraph": "Hi! I'm Elaine Huang, a Senior Product Designer looking to transition to the AI/ML space within healthcare.",
+    "primary_role": "I envision and ship products that resolve the problems experienced by different members of the healthcare community.",
+    "ai_ml_paragraph": "I research and self-teach AI / Machine Learning in my free time.",
+    "developer_role": "I develop clean and efficient code.",
+    "design_role": "I design beautiful and intuitive user interfaces.",
+    "experience_section": "EXPERIENCE",
+    "skills_section": "SKILLS",
+    "tools_section": "TOOLS"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -31,8 +41,23 @@
   "About": {
     "meta_title": "About",
     "meta_description": "About page description",
-    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "about_paragraph": "Welcome to our About page!",
     "translation_powered_by": "Translation powered by"
+  },
+  "Development": {
+    "meta_title": "Elaine's Dev Work",
+    "meta_description": "Software Development Projects",
+    "page_title": "Development Work"
+  },
+  "Design": {
+    "meta_title": "Elaine's Design Work",
+    "meta_description": "Design Projects and Associated User Research",
+    "page_title": "Design Work"
+  },
+  "Resume": {
+    "meta_title": "Elaine's Resume",
+    "meta_description": "My resume",
+    "page_title": "Resume"
   },
   "Portfolio": {
     "meta_title": "Portfolio",
