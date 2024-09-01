@@ -1,3 +1,10 @@
+# 1.0.0 (2024-09-01)
+
+
+### Features
+
+* establish nav and footer in english and french ([e248649](https://github.com/huang12211/Portfolio2024/commit/e248649f3b9732ee61c67600c3d92317e9554225))
+
 ## [3.55.3](https://github.com/ixartz/Next-js-Boilerplate/compare/v3.55.2...v3.55.3) (2024-08-21)
 
 
