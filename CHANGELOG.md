@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/huang12211/Portfolio2024/compare/v1.0.0...v1.0.1) (2024-09-01)
+
+
+### Bug Fixes
+
+* **bug:** image patch ([093e36b](https://github.com/huang12211/Portfolio2024/commit/093e36b3bc48d1d0d99980927c5e2972afd51196))
+
 # 1.0.0 (2024-09-01)
 
 
