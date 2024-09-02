@@ -10,18 +10,18 @@ const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="w-full px-1 text-gray-700 antialiased">
+    <div className="h-auto w-full px-1 text-gray-700 antialiased">
       <div className="mx-auto max-w-screen-md">
-        <header className="border-b border-gray-300">
+        <header className="border-grey-300 border-b">
           <div className="flex justify-between gap-x-5 pt-8">
             <nav>
-              <ul className="flex h-16 items-center gap-x-5 text-sm md:h-24 md:text-2xl">
+              <ul className="flex h-16 w-auto items-center gap-x-5 text-sm md:h-24 md:w-auto md:text-2xl">
                 {props.leftNav}
               </ul>
             </nav>
 
             <nav>
-              <ul className="flex h-16 items-center gap-x-2 text-sm md:h-24 md:text-2xl">
+              <ul className="flex h-16 w-auto items-center gap-x-2 text-sm md:h-24 md:w-auto md:text-2xl">
                 {props.rightNav}
               </ul>
             </nav>

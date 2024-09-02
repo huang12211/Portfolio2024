@@ -7,9 +7,9 @@ const LinkedIn = () => (
   >
     <Image
       src="/assets/Icons - General/linkedinIcon.png"
-      alt="Cartoon"
-      width={30}
-      height={30}
+      alt="LinkedIn Logo"
+      width={1024}
+      height={1024}
     />
   </a>
 

@@ -18,7 +18,7 @@ export default function Layout(props: {
     <BaseTemplate
       leftNav={(
         <>
-          <li className="w-20 md:w-32">
+          <li className="h-auto w-20 md:h-auto md:w-32">
             <Link
               href="/"
               className="border-none font-bold text-gray-700 hover:text-cyan-700"
@@ -64,7 +64,7 @@ export default function Layout(props: {
         </>
       )}
     >
-      <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
+      <div className="py-5 text-xl">{props.children}</div>
     </BaseTemplate>
   );
 }

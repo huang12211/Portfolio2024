@@ -136,7 +136,7 @@ Developer experience first, extremely flexible code structure and only keep what
 Built-in feature from Next.js:
 
 - ☕ Minify HTML & CSS
-- 💨 Live reload
+- 💨 Live reloadgit s
 - ✅ Cache busting
 
 ### Philosophy
