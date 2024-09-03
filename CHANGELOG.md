@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/huang12211/Portfolio2024/compare/v1.0.1...v1.1.0) (2024-09-03)
+
+
+### Features
+
+* established project cards for the project pages ([6fd684a](https://github.com/huang12211/Portfolio2024/commit/6fd684a09072f30ef3152ea6f89db69ab09bf18a))
+
 ## [1.0.1](https://github.com/huang12211/Portfolio2024/compare/v1.0.0...v1.0.1) (2024-09-01)
 
 
