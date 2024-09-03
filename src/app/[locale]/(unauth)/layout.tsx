@@ -64,7 +64,7 @@ export default function Layout(props: {
         </>
       )}
     >
-      <div className="py-5 text-xl">{props.children}</div>
+      <div className="text-xl">{props.children}</div>
     </BaseTemplate>
   );
 }
