@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Figma = () => (
   <Image
-    src="/assets/Icons - General/Figma.png"
+    src="/assets/Icons - General/figma.png"
     alt="Figma Logo"
     width={360}
     height={180}

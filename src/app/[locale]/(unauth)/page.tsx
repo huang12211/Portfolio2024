@@ -100,7 +100,7 @@ export default function Index(props: { params: { locale: string } }) {
           </div>
           <div>
             <HomeSectionImg
-              image_src="/assets/Home/Ai.png"
+              image_src="/assets/Home/AI.png"
               image_alt="AI image"
             />
           </div>
@@ -111,7 +111,7 @@ export default function Index(props: { params: { locale: string } }) {
         <div className="mx-auto grid max-w-screen-md grid-cols-3 gap-4 px-4 py-12">
           <div>
             <HomeSectionImg
-              image_src="/assets/Home/Ai.png"
+              image_src="/assets/Home/AI.png"
               image_alt="AI image"
             />
           </div>
@@ -160,7 +160,7 @@ export default function Index(props: { params: { locale: string } }) {
           </div>
           <div>
             <HomeSectionImg
-              image_src="/assets/Home/Ai.png"
+              image_src="/assets/Home/AI.png"
               image_alt="AI image"
             />
           </div>
