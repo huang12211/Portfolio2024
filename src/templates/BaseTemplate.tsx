@@ -11,9 +11,9 @@ const BaseTemplate = (props: {
 
   return (
     <div className="h-auto w-full px-1 text-gray-700 antialiased">
-      <div className="mx-auto max-w-screen-md">
+      <div className="mx-auto">
         <header className="border-grey-300 border-b">
-          <div className="flex justify-between gap-x-5 pt-8">
+          <div className="mx-auto flex max-w-screen-md justify-between gap-x-5 pt-8">
             <nav>
               <ul className="flex h-16 w-auto items-center gap-x-5 text-sm md:h-24 md:w-auto md:text-2xl">
                 {props.leftNav}
