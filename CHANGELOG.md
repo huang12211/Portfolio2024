@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/huang12211/Portfolio2024/compare/v1.1.0...v1.1.1) (2024-09-03)
+
+
+### Bug Fixes
+
+* fixed all broken links to images on home page ([ae22e15](https://github.com/huang12211/Portfolio2024/commit/ae22e15eef9289d9af8901ea83abbd3f27c127df))
+
 # [1.1.0](https://github.com/huang12211/Portfolio2024/compare/v1.0.1...v1.1.0) (2024-09-03)
 
 
