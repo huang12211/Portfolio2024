@@ -25,36 +25,39 @@ export default function Development(props: { params: { locale: string } }) {
         <div className="py-4 font-black">
           <h1>{t('page_title')}</h1>
         </div>
-        <div className="flex flex-wrap gap-4">
-          <ProjectCard
-            image_src="/assets/Home/Ai.png"
-            image_alt="Emotions"
-            title="Facial Emotion Detection"
-          />
+        <div className="relative">
 
-          <ProjectCard
-            image_src="/assets/Home/CartoonElaineWave.png"
-            image_alt="Emotions"
-            title="Facial Emotion Detection"
-          />
+          <div className="flex flex-wrap gap-4">
+            <ProjectCard
+              image_src="/assets/images/FacialEmotions.png"
+              image_alt="Emotions"
+              title="Facial Emotion Detection"
+            />
 
-          <ProjectCard
-            image_src="/assets/Home/CartoonElaineWave.png"
-            image_alt="Emotions"
-            title="Facial Emotion Detection"
-          />
+            <ProjectCard
+              image_src="/assets/Home/CartoonElaineWave.png"
+              image_alt="Emotions"
+              title="Facial Emotion Detection"
+            />
 
-          <ProjectCard
-            image_src="/assets/Home/CartoonElaineWave.png"
-            image_alt="Emotions"
-            title="Facial Emotion Detection"
-          />
+            <ProjectCard
+              image_src="/assets/Home/CartoonElaineWave.png"
+              image_alt="Emotions"
+              title="Facial Emotion Detection"
+            />
 
-          <ProjectCard
-            image_src="/assets/Home/CartoonElaineWave.png"
-            image_alt="Emotions"
-            title="Facial Emotion Detection"
-          />
+            <ProjectCard
+              image_src="/assets/Home/CartoonElaineWave.png"
+              image_alt="Emotions"
+              title="Facial Emotion Detection"
+            />
+
+            <ProjectCard
+              image_src="/assets/Home/CartoonElaineWave.png"
+              image_alt="Emotions"
+              title="Facial Emotion Detection"
+            />
+          </div>
         </div>
       </div>
     </>
