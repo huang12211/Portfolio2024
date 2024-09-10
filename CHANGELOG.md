@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/huang12211/Portfolio2024/compare/v1.1.1...v1.2.0) (2024-09-10)
+
+
+### Features
+
+* implement one instance of popups ([230fb4f](https://github.com/huang12211/Portfolio2024/commit/230fb4f6e83eecfc6241c02bdb71b0b44d3cbe03))
+
 ## [1.1.1](https://github.com/huang12211/Portfolio2024/compare/v1.1.0...v1.1.1) (2024-09-03)
 
 
