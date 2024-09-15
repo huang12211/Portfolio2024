@@ -4,6 +4,7 @@
     "development_link": "Dev Work",
     "design_link": "Design Work",
     "resume_link": "Resume",
+    "contact_link": "Contact",
     "about_link": "About",
     "guestbook_link": "Guestbook",
     "portfolio_link": "Portfolio",
@@ -28,10 +29,13 @@
     "primary_role": "I envision and ship products that resolve the problems experienced by different members of the healthcare community.",
     "ai_ml_paragraph": "I research and self-teach AI / Machine Learning in my free time.",
     "developer_role": "I ship clean and efficient code.",
-    "design_role": "I design beautiful and intuitive user interfaces.",
+    "design_role": "I design simple and intuitive user experiences.",
     "experience_section": "EXPERIENCE",
     "skills_section": "SKILLS",
-    "tools_section": "TOOLS"
+    "tools_section": "TOOLS",
+    "see_projects": "VIEW PROJECTS",
+    "connect_msg": "Let's connect!",
+    "connect_btn": "CONTACT"
   },
   "Guestbook": {
     "meta_title": "Guestbook",
@@ -65,6 +69,11 @@
     "meta_title": "Elaine's Resume",
     "meta_description": "My resume",
     "page_title": "Resume"
+  },
+  "Contact": {
+    "meta_title": "Contact Elaine",
+    "meta_description": "Contact information of Elaine Huang",
+    "page_title": "Let's connect!"
   },
   "Portfolio": {
     "meta_title": "Portfolio",

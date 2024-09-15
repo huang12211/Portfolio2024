@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Html = () => (
+const HtmlLogo = () => (
   <Image
     src="/assets/Icons - General/html.png"
     alt="HTML Logo"
@@ -10,4 +10,4 @@ const Html = () => (
   />
 );
 
-export { Html };
+export { HtmlLogo };

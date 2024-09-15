@@ -4,6 +4,7 @@
     "development_link": "Développement",
     "design_link": "Conception",
     "resume_link": "Résumé",
+    "contact_link": "Me joindre",
     "about_link": "À propos",
     "guestbook_link": "Livre d'or",
     "portfolio_link": "Portfolio",
@@ -17,8 +18,24 @@
   "Index": {
     "meta_title": "Portfolio d'Elaine Huang",
     "meta_description": "Bienvenue au portfolio d'Elaine Huang.",
-    "introduce_me_paragraph": "Salut! Je m'apelle Elaine Huang. Je suis un Concepteur de Produits Senior qui transitionne vers l'industrie d'intelligence artificiel.",
-    "sponsors_title": "Partenaires"
+    "hi_text": "Salut!",
+    "im_text": "Je m'appelle ",
+    "full_name": "Elaine Huang",
+    "introduce_me_1": "un ",
+    "introduce_me_2": "Concepteur de Produits",
+    "introduce_me_3": " cherchant des opportunités à travailler dans la domaine ",
+    "introduce_me_4": "d'intelligence artificielle",
+    "introduce_me_5": ".",
+    "primary_role": "J'imagine et je livre des produits qui adressent les problèmes qui sont subis par les professionelles de santé.",
+    "ai_ml_paragraph": "J'investigue et me renseigne sur les avancements dand la domaine d'intelligence artificielle durant mon temps libre.",
+    "developer_role": "Je livre du code qui est propre et efficace.",
+    "design_role": "Je crée des expériences utilisateur simples et intuitifs.",
+    "experience_section": "EXPÉRIENCES",
+    "skills_section": "COMPÉTENCES",
+    "tools_section": "OUTILS",
+    "see_projects": "VOIR MES PROJETS",
+    "connect_msg": "J'aurais hâte de travailler avec vous!",
+    "connect_btn": "CONTACTEZ-MOI"
   },
   "Guestbook": {
     "meta_title": "Livre d'or",
@@ -40,15 +57,23 @@
   },
   "Development": {
     "meta_title": "Travail de Développement d'Elaine",
-    "meta_description": "Mes projets avec un focus sur le développement logiciel"
+    "meta_description": "Mes projets avec un focus sur le développement logiciel",
+    "page_title": "Travail de Développement"
   },
   "Design": {
     "meta_title": "Travail de Conception d'Elaine",
-    "meta_description": "Mes projets avec un focus sur le conception du produit"
+    "meta_description": "Mes projets avec un focus sur le conception du produit",
+    "page_title": "Travail de conception"
   },
   "Resume": {
     "meta_title": "Résumé d'Elaine",
-    "meta_description": "Mon Résumé"
+    "meta_description": "Mon Résumé",
+    "page_title": "Résumé"
+  },
+  "Contact": {
+    "meta_title": "Contactez Elaine",
+    "meta_description": "Information de contact d'Elaine Huang",
+    "page_title": "Connectons-nous!"
   },
   "Portfolio": {
     "meta_title": "Portfolio",

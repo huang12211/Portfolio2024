@@ -6,7 +6,7 @@ const Scikitlearn = () => (
     alt="Scikitlearn Logo"
     width={360}
     height={360}
-    className="h-9 w-auto md:h-10"
+    className="h-9 w-auto md:-ml-2 md:h-10"
   />
 );
 

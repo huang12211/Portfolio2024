@@ -6,7 +6,7 @@ const HomeSectionImg = (props: {
 }) => {
   return (
     <>
-      <div className="size-56 overflow-hidden rounded-3xl border-gray-700">
+      <div className="h-64 w-72 overflow-hidden rounded-3xl border-gray-700 bg-purple-300">
         <Image
           src={props.image_src}
           alt={props.image_alt}

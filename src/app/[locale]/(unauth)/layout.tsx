@@ -18,43 +18,46 @@ export default function Layout(props: {
     <BaseTemplate
       leftNav={(
         <>
-          <li className="h-auto w-20 md:h-auto md:w-32">
+          <li className="h-auto w-20 duration-150 hover:scale-110 md:h-auto md:w-32">
             <Link
               href="/"
-              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
               <HomeNavButton></HomeNavButton>
             </Link>
           </li>
-          <li>
+          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/development/"
-              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
               {t('development_link')}
             </Link>
           </li>
-          <li>
+          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/design/"
-              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
               {t('design_link')}
             </Link>
           </li>
-          <li>
+          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/resume/"
-              className="border-none font-bold text-gray-700 hover:text-cyan-700"
             >
               {t('resume_link')}
+            </Link>
+          </li>
+          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
+            <Link
+              href="/contact/"
+            >
+              {t('contact_link')}
             </Link>
           </li>
         </>
       )}
       rightNav={(
         <>
-          <li className="size-5 md:size-8">
+          <li className="size-5 duration-150 hover:scale-110 md:size-8">
             <LinkedIn></LinkedIn>
           </li>
 
