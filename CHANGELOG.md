@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/huang12211/Portfolio2024/compare/v1.2.0...v1.3.0) (2024-09-15)
+
+
+### Features
+
+* contact page fleshed out ([8ca2ee3](https://github.com/huang12211/Portfolio2024/commit/8ca2ee32b9bbc127be6ec19ec080631a7866eb83))
+
 # [1.2.0](https://github.com/huang12211/Portfolio2024/compare/v1.1.1...v1.2.0) (2024-09-10)
 
 
