@@ -13,8 +13,9 @@ import { JavascriptLogo } from '@/components/JavascriptLogo';
 import { Keras } from '@/components/KerasLogo';
 import { Matlab } from '@/components/Matlab';
 import { Python } from '@/components/Python';
+import { ReactLogo } from '@/components/ReactLogo';
 import { Scikitlearn } from '@/components/Scikitlearn';
-import { Sql } from '@/components/Sql';
+import { SQLiteLogo } from '@/components/SQLiteLogo';
 import { Tensorflow } from '@/components/Tensorflow';
 import { TypescriptLogo } from '@/components/TypescriptLogo';
 
@@ -41,12 +42,12 @@ export default function Index(props: { params: { locale: string } }) {
           <div className="flex items-center py-4">
             <Cartoon></Cartoon>
             <div className="h-auto w-full px-4">
-              <p className="pb-3 text-center font-['Georgia'] text-8xl font-bold italic">
+              <p className="pb-3 text-center font-['Georgia'] text-9xl font-bold italic">
                 {t('hi_text')}
               </p>
-              <p className="text-3xl font-bold">
+              <p className="text-4xl font-bold">
                 {t('im_text')}
-                <span className="text-5xl font-bold text-dark-coral">
+                <span className="text-6xl font-bold italic text-rose-500">
                   {t('full_name')}
                 </span>
                 <span>,</span>
@@ -83,22 +84,35 @@ export default function Index(props: { params: { locale: string } }) {
       {/* Second Block under Intro */}
       <div className="bg-sky-200">
         <div className="mx-auto grid max-w-screen-lg grid-cols-3 gap-8 px-4 py-12">
-          <div className="col-span-2 py-2">
-            <p className="pb-4">
-              {t('ai_ml_paragraph')}
-            </p>
+          <div className="col-span-2 py-2 text-right">
+            <div className="pb-4 text-3xl">
+              <p>
+                {t('ai_ml_paragraph')}
+                <span
+                  className="text-3xl font-extrabold italic text-sky-600"
+                >
+                  {t('introduce_me_4')}
+                </span>
+              </p>
+              <p>
+                {t('ai_ml_paragraph_2')}
+              </p>
+            </div>
             <p className="w-full border-b border-gray-500 pt-2 text-gray-500">
               {t('experience_section')}
             </p>
-            <ul className="list-outside list-disc ps-6 text-base text-gray-500">
-              <li>
-                <a
-                  href="/"
-                >
-                  MIT Certification - Leveraging AI for Effective Decision-Making
-                </a>
-              </li>
-            </ul>
+            <p className="pt-2 font-bold text-gray-500">
+              Certification - Leveraging AI for Effective Decision-Making,
+            </p>
+            <p className="italic text-gray-500">
+              Massachusetts Institute of Technology (MIT)
+            </p>
+            <p className="pt-2 font-bold text-gray-500">
+              Bachelor's Degree in Biomedical Engineering,
+            </p>
+            <p className="italic text-gray-500">
+              University of Waterloo, Ontario, Canada
+            </p>
           </div>
           <div className="flex flex-col place-items-center gap-2">
             <div>
@@ -119,7 +133,7 @@ export default function Index(props: { params: { locale: string } }) {
         </div>
       </div>
       {/* Third Block under Intro */}
-      <div className="bg-red-200">
+      <div className="bg-rose-200">
         <div className="mx-auto grid max-w-screen-lg grid-cols-3 gap-8 px-4 py-12">
           <div className="flex flex-col place-items-center gap-2">
             <div>
@@ -131,20 +145,34 @@ export default function Index(props: { params: { locale: string } }) {
             <div className="flex justify-center">
               <Link
                 href=" /development/"
-                className="rounded-full border-4 border-gray-700 px-6 text-xl shadow-xl duration-150 hover:scale-110 hover:bg-red-300 hover:font-bold"
+                className="rounded-full border-4 border-gray-700 px-6 text-xl shadow-xl duration-150 hover:scale-110 hover:bg-rose-300 hover:font-bold"
               >
                 {t('see_projects')}
               </Link>
             </div>
           </div>
           <div className="col-span-2 py-2">
-            <p>
-              {t('developer_role')}
-            </p>
+            <div className="pb-4 text-3xl">
+              <p>
+                {t('developer_role')}
+                <span
+                  className="font-extrabold italic text-rose-500"
+                >
+                  {t('developer_role_highlight')}
+                </span>
+                {t('developer_role_2')}
+              </p>
+            </div>
             <p className="w-full border-b border-gray-500 pt-2 text-gray-500">
               {t('skills_section')}
             </p>
-            <p className="w-full border-b border-gray-500 pt-2 text-gray-500">
+            <ul className="text-gray-500">
+              <li>Python for Machine Learning applications</li>
+              <li>Virtual reality development</li>
+              <li>Web development</li>
+              <li>Automation of Data Analysis, V&V testing and Documentation </li>
+            </ul>
+            <p className="w-full border-b border-gray-500 pt-4 text-gray-500">
               {t('tools_section')}
             </p>
             <div className="flex h-14 flex-row items-center gap-4 overflow-hidden object-none">
@@ -152,10 +180,11 @@ export default function Index(props: { params: { locale: string } }) {
               <Tensorflow></Tensorflow>
               <Keras></Keras>
               <Scikitlearn></Scikitlearn>
-              <Matlab></Matlab>
               <Csharp></Csharp>
               <CPlusPlus></CPlusPlus>
-              <Sql></Sql>
+              <ReactLogo></ReactLogo>
+              <SQLiteLogo></SQLiteLogo>
+              <Matlab></Matlab>
             </div>
           </div>
         </div>
@@ -163,17 +192,31 @@ export default function Index(props: { params: { locale: string } }) {
       {/* Fourth Section */}
       <div className="bg-purple-200">
         <div className="mx-auto grid max-w-screen-lg grid-cols-3 gap-8 px-4 py-12">
-          <div className="col-span-2 py-2">
-            <p>
-              {t('design_role')}
-            </p>
+          <div className="col-span-2 py-2 text-right">
+            <div className="pb-4 text-3xl">
+              <p>
+                {t('design_role')}
+                <span
+                  className="text-3xl font-extrabold italic text-purple-500"
+                >
+                  {t('design_role_highlight')}
+                </span>
+                {t('design_role_2')}
+              </p>
+            </div>
             <p className="w-full border-b border-gray-500 pt-2 text-gray-500">
               {t('skills_section')}
             </p>
-            <p className="w-full border-b border-gray-500 pt-2 text-gray-500">
+            <ul className="text-gray-500">
+              <li>Front-end development</li>
+              <li>UI Prototyping</li>
+              <li>User Research</li>
+              <li>Usability and Validation Testing</li>
+            </ul>
+            <p className="w-full border-b border-gray-500 pt-4 text-gray-500">
               {t('tools_section')}
             </p>
-            <div className="flex h-14 flex-row items-center gap-4 overflow-hidden object-none">
+            <div className="flex h-14 flex-row items-center justify-end gap-4 overflow-hidden object-none">
               <HtmlLogo></HtmlLogo>
               <Css></Css>
               <JavascriptLogo></JavascriptLogo>
@@ -200,14 +243,14 @@ export default function Index(props: { params: { locale: string } }) {
         </div>
       </div>
       {/* Let's get in touch! */}
-      <div className="grid grid-rows-2 gap-6 bg-cyan-200 p-20">
+      <div className="grid grid-rows-2 gap-6 bg-teal-500 bg-opacity-50 p-20">
         <p className="w-full text-center font-[Georgia] text-6xl font-black">
           {t('connect_msg')}
         </p>
         <div className="flex place-content-center">
           <Link
             href="/contact/"
-            className="place-content-center rounded-full border-4 border-gray-700 px-6 text-3xl font-black shadow-xl duration-150 hover:scale-125 hover:bg-cyan-400"
+            className="place-content-center rounded-full border-4 border-gray-700 px-6 text-3xl font-black shadow-xl duration-150 hover:scale-125 hover:bg-teal-500"
           >
             {t('connect_btn')}
           </Link>
