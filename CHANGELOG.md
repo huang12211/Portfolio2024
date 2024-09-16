@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/huang12211/Portfolio2024/compare/v1.3.0...v1.4.0) (2024-09-16)
+
+
+### Features
+
+* translate entire home page to french ([7b13cd6](https://github.com/huang12211/Portfolio2024/commit/7b13cd635bc6b030b70d8ac0b5b1584f09b7039a))
+
 # [1.3.0](https://github.com/huang12211/Portfolio2024/compare/v1.2.0...v1.3.0) (2024-09-15)
 
 
