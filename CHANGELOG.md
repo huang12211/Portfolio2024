@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/huang12211/Portfolio2024/compare/v1.5.0...v1.5.1) (2024-10-07)
+
+
+### Bug Fixes
+
+* removed pdf creator that was blocking the build ([875a175](https://github.com/huang12211/Portfolio2024/commit/875a175ae83669a95f7e4b21eaab41a00790b197))
+
 # [1.5.0](https://github.com/huang12211/Portfolio2024/compare/v1.4.0...v1.5.0) (2024-10-07)
 
 
