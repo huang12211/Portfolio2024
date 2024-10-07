@@ -22,9 +22,7 @@ export default function Resume(props: { params: { locale: string } }) {
     <>
       <div className="mx-auto max-w-screen-lg py-12">
         <div className="flex flex-row place-content-center font-['Georgia'] text-7xl font-black text-teal-700">
-          <h1>
-            {t('page_title')}
-          </h1>
+          <h1 className="text-center">{t('page_title')}</h1>
         </div>
         <div className="relative">
           <div>

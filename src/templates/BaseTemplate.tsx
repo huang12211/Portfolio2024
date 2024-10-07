@@ -10,25 +10,27 @@ const BaseTemplate = (props: {
   const t = useTranslations('BaseTemplate');
 
   return (
-    <div className="h-auto w-full px-1 text-gray-700 antialiased">
+    <div className="h-auto w-full text-gray-700 antialiased">
       <div className="mx-auto">
-        <header className="border-grey-300 mb-0.5 border-b shadow">
-          <div className="mx-auto flex max-w-screen-lg justify-between gap-x-5 pt-8">
+        <header className="fixed z-50 mb-0.5 w-full border-b border-gray-100 bg-white shadow">
+          <div className="mx-auto flex max-w-screen-lg flex-row justify-between gap-x-5 px-4 pt-2">
             <nav>
-              <ul className="flex h-16 w-auto items-center gap-x-5 text-sm md:h-24 md:w-auto md:text-2xl">
+              <ul className="flex h-12 w-auto items-center gap-x-5 text-sm font-bold text-gray-700 md:h-16 md:w-auto md:text-xl">
                 {props.leftNav}
               </ul>
             </nav>
 
             <nav>
-              <ul className="flex h-16 w-auto items-center gap-x-2 text-sm md:h-24 md:w-auto md:text-2xl">
+              <ul className="flex h-12 w-auto items-center gap-x-2 text-sm md:h-16 md:w-auto md:text-2xl">
                 {props.rightNav}
               </ul>
             </nav>
           </div>
         </header>
 
-        <main>{props.children}</main>
+        <main className="pt-[3.7rem] md:pt-[4.7rem]">
+          {props.children}
+        </main>
 
         <footer className="border-t border-gray-300 py-8 text-center text-sm">
           {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. ${t('made_with')} `}

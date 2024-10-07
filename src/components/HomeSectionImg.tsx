@@ -6,13 +6,13 @@ const HomeSectionImg = (props: {
 }) => {
   return (
     <>
-      <div className="h-64 w-72 overflow-hidden rounded-3xl border-gray-700 bg-purple-300">
+      <div className="flex h-48 w-72 max-w-[95%] shrink justify-center overflow-hidden rounded-3xl border-gray-700 bg-purple-300 md:h-64">
         <Image
           src={props.image_src}
           alt={props.image_alt}
           width="1024"
           height="1024"
-          className="h-full content-center object-cover"
+          className="h-full object-cover"
         />
       </div>
     </>

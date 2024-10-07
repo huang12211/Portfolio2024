@@ -67,3 +67,10 @@ export default withSentryConfig(
     telemetry: false,
   },
 );
+
+// module.exports = {
+//   webpack: (config) => {
+//     config.resolve.alias.canvas = false;
+//     return config;
+//   },
+// }
