@@ -1,6 +1,6 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
-import { PDFWindow } from '@/components/PDFWindow';
+// import { PDFWindow } from '@/components/PDFWindow';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -20,9 +20,9 @@ export default function Resume(props: { params: { locale: string } }) {
   return (
     <div className="mx-auto max-w-screen-lg pb-4">
       <div className="mt-4 max-h-[1450px]">
-        <PDFWindow
+        {/* <PDFWindow
           pdf_path="/assets/resume/2024_Elaine_Huang.pdf"
-        />
+        /> */}
       </div>
     </div>
   );
