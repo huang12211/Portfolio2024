@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/huang12211/Portfolio2024/compare/v1.4.0...v1.5.0) (2024-10-07)
+
+
+### Features
+
+* design page drafted ([061f1d1](https://github.com/huang12211/Portfolio2024/commit/061f1d11a09b673e79638cd3288bd310738b5e83))
+
 # [1.4.0](https://github.com/huang12211/Portfolio2024/compare/v1.3.0...v1.4.0) (2024-09-16)
 
 
