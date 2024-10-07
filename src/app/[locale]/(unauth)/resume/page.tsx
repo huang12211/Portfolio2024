@@ -1,5 +1,6 @@
-import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+
+import { PDFWindow } from '@/components/PDFWindow';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
   const t = await getTranslations({
@@ -15,13 +16,14 @@ export async function generateMetadata(props: { params: { locale: string } }) {
 
 export default function Resume(props: { params: { locale: string } }) {
   unstable_setRequestLocale(props.params.locale);
-  const t = useTranslations('Resume');
 
   return (
-    <>
-      <div>
-        <h1>{t('page_title')}</h1>
+    <div className="mx-auto max-w-screen-lg pb-4">
+      <div className="mt-4 max-h-[1450px]">
+        <PDFWindow
+          pdf_path="/assets/resume/2024_Elaine_Huang.pdf"
+        />
       </div>
-    </>
+    </div>
   );
 }

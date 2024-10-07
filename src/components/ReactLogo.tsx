@@ -6,7 +6,7 @@ const ReactLogo = () => (
     alt="React Logo"
     width={920}
     height={920}
-    className="h-6 w-auto md:h-9"
+    className="h-8 w-auto md:h-9"
   />
 );
 

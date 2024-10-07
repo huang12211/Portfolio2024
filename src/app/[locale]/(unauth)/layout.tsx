@@ -18,35 +18,35 @@ export default function Layout(props: {
     <BaseTemplate
       leftNav={(
         <>
-          <li className="h-auto w-20 duration-150 hover:scale-110 md:h-auto md:w-32">
+          <li className="h-auto w-20 duration-150 hover:scale-110 md:h-auto md:w-24">
             <Link
               href="/"
             >
               <HomeNavButton></HomeNavButton>
             </Link>
           </li>
-          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
+          <li className="flex h-full items-center hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/development/"
             >
               {t('development_link')}
             </Link>
           </li>
-          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
+          <li className="flex h-full items-center hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/design/"
             >
               {t('design_link')}
             </Link>
           </li>
-          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
+          <li className="flex h-full items-center hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/resume/"
             >
               {t('resume_link')}
             </Link>
           </li>
-          <li className="flex h-full items-center font-bold text-gray-700 hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
+          <li className="flex h-full items-center hover:border-b-2 hover:border-cyan-700 hover:text-cyan-700">
             <Link
               href="/contact/"
             >

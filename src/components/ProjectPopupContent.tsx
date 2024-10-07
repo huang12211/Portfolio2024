@@ -45,7 +45,7 @@ const ProjectPopupContent = (props: {
             <li>- EfficientNet</li>
           </ul>
           <h2 className="pt-2 font-bold underline">Tools:</h2>
-          <div className="flex h-14 flex-row flex-wrap items-center gap-4">
+          <div className="flex flex-wrap items-center gap-2 md:gap-4">
             <Python></Python>
             <Tensorflow></Tensorflow>
             <Keras></Keras>
@@ -85,7 +85,7 @@ const ProjectPopupContent = (props: {
             sophisticated GPU.
           </p>
           <h2 className="pt-2 font-bold underline">Tools:</h2>
-          <div className="flex h-14 flex-row flex-wrap items-center gap-4">
+          <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4">
             <Python></Python>
             <Tensorflow></Tensorflow>
             <Keras></Keras>
@@ -126,7 +126,7 @@ const ProjectPopupContent = (props: {
             Sawires, Y., Huang, E., Gomes, A., Fernandes, K. & Wang, D. Development of Concussion Evaluation Tools Using Life-Like Virtual Reality Environments. in 326–333 (2018). doi:10.1007/978-3-319-92279-9_44
           </p>
           <h2 className="pt-2 font-bold underline">Tools:</h2>
-          <div className="flex h-10 flex-row flex-wrap items-center gap-4 md:h-14">
+          <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4">
             <Csharp></Csharp>
             <CPlusPlus></CPlusPlus>
             <Unity3D></Unity3D>
@@ -164,7 +164,7 @@ const ProjectPopupContent = (props: {
             there are so many that exist.
           </p>
           <h2 className="pt-2 font-bold underline">Tools:</h2>
-          <div className="flex h-14 flex-row flex-wrap items-center gap-4">
+          <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4">
             <Figma></Figma>
             <HtmlLogo></HtmlLogo>
             <Css></Css>
