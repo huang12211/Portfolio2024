@@ -18,7 +18,7 @@ export default function Resume(props: { params: { locale: string } }) {
   unstable_setRequestLocale(props.params.locale);
 
   return (
-    <div className="mx-auto max-w-screen-lg pb-4">
+    <div className="mx-auto max-w-screen-xl pb-4">
       <div className="mt-4 max-h-[1450px]">
         {/* <PDFWindow
           pdf_path="/assets/resume/2024_Elaine_Huang.pdf"

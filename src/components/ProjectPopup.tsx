@@ -24,7 +24,7 @@ const ProjectPopup = (props: {
                 className="self-top col-span-2 object-cover py-2"
               />
               <div className="col-span-3">
-                <h1 className="text-base font-black md:text-xl">{props.project_title}</h1>
+                <p className="text-base font-black md:text-xl">{props.project_title}</p>
                 <div className="text-xs md:text-base">
                   {/* {props.children} */}
                   <ProjectPopupContent

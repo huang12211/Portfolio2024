@@ -21,12 +21,21 @@ export default function Design(props: { params: { locale: string } }) {
 
   return (
     <>
-      <div className="z-0 mx-auto max-w-screen-lg px-6 pb-4">
-        <div className="pb-10 pt-8">
-          <h1 className="content-center text-center font-[Georgia] text-5xl font-black">{t('page_title')}</h1>
+      <div className="z-0 mx-auto max-w-screen-xl px-6 pb-10">
+        <div className="py-12">
+          <h1>{t('page_title')}</h1>
         </div>
         <div className="relative">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+          <div className="mx-20 grid grid-cols-1 gap-10 md:mx-14 md:grid-cols-2">
+            <DesignProjectCard
+              card_image_src="/assets/images/ROSABrain2.png"
+              image_alt="ROSA Brain"
+              title="ROSA ONE Brain"
+              subtitle="Robotic Neurosurgical Device"
+              page_link="/design/rosa-brain/"
+              bg_color="rgb(249 168 212)"
+              alignment="start"
+            />
             <DesignProjectCard
               card_image_src="/assets/images/NaviScout.png"
               image_alt="NaviScout"

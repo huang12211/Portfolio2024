@@ -21,7 +21,7 @@ export default function Design() {
     <>
       <div className="pb-4">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-6 px-6 py-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16">
             <div className="flex flex-col gap-2">
               <h1 className="content-center text-center font-[Georgia] text-4xl font-black">Synthetic Cadavers</h1>
               <h2 className="content-center text-center font-[Georgia] text-2xl font-black italic text-rose-400">
@@ -38,7 +38,7 @@ export default function Design() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-lg grid-cols-2 gap-4 p-6 text-lg">
+        <div className="mx-auto grid max-w-screen-xl grid-cols-2 gap-4 p-6 text-lg">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 p-4">
             <h3 className="text-xl font-medium">The Goal:</h3>
             <p className="text-base">
@@ -58,7 +58,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-semibold">Business Context</h2>
             <p>
               To Fill In.
@@ -66,7 +66,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-black">Early Insights from the Field</h2>
             <h4 className="text-lg font-semibold">Customer Interviews</h4>
             <p>
@@ -110,7 +110,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-black">Design Phase</h2>
             <h3 className="text-lg font-semibold">Mockups</h3>
             <p>
@@ -134,7 +134,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-bold">Verification & Validation Testing</h2>
             <h3 className="text-lg font-semibold">Verification Lead</h3>
             <p>
@@ -145,7 +145,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-bold">The Impact</h2>
             <p>
               Only pre-market results are reported as the project was discontinued prior to its official launch in February of 2022.
@@ -204,7 +204,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-lg flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h2 className="text-xl font-bold">What I learned</h2>
             <p>
               This was a relatively fast-paced project given the scope and industry in which I was operating in. Our marketing director
