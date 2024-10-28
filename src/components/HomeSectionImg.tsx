@@ -6,7 +6,7 @@ const HomeSectionImg = (props: {
 }) => {
   return (
     <>
-      <div className="flex h-48 w-72 max-w-[95%] shrink justify-center overflow-hidden rounded-3xl border-gray-700 bg-purple-300 md:h-64">
+      <div className="flex size-24 shrink justify-center overflow-hidden rounded-3xl border-gray-700 bg-purple-300 md:size-48 2xl:size-96">
         <Image
           src={props.image_src}
           alt={props.image_alt}

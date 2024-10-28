@@ -20,11 +20,11 @@ export default function Resume(props: { params: { locale: string } }) {
 
   return (
     <>
-      <div className="mx-auto max-w-screen-lg py-12">
-        <div className="flex flex-row place-content-center font-['Georgia'] text-7xl font-black text-teal-700">
-          <h1 className="text-center">{t('page_title')}</h1>
+      <div className="mx-auto max-w-screen-xl pb-12 pt-24">
+        <div className="flex flex-row place-content-center">
+          <h1 className="text-6xl font-black text-teal-700 lg:text-8xl">{t('page_title')}</h1>
         </div>
-        <div className="relative">
+        <div className="relative pt-40 md:pt-0">
           <div>
             <Image
               src="/assets/Icons - General/wiredPhone.png"
@@ -38,12 +38,12 @@ export default function Resume(props: { params: { locale: string } }) {
             <div className="flex flex-row items-center gap-4">
               <Image
                 src="/assets/Icons - General/emailIcon.png"
-                alt="LinkedIn Logo"
+                alt="Email logo"
                 width={1024}
                 height={1024}
-                className="h-10 w-auto rounded-lg object-cover"
+                className="h-12 w-auto rounded-lg object-cover lg:h-16"
               />
-              <p>huang12211@gmail.com</p>
+              <p className="text-xl lg:text-2xl">huang12211@gmail.com</p>
             </div>
             <div className="flex flex-row items-center gap-4">
               <Image
@@ -51,12 +51,12 @@ export default function Resume(props: { params: { locale: string } }) {
                 alt="LinkedIn Logo"
                 width={1024}
                 height={1024}
-                className="h-10 w-auto rounded-lg object-cover"
+                className="h-12 w-auto rounded-lg object-cover lg:h-16"
               />
               <a
                 href="https://www.linkedin.com/in/elaine-y-huang/"
                 target="_blank"
-                className="text-sky-600 hover:underline"
+                className="text-xl text-sky-600 hover:underline lg:text-2xl"
               >
                 https://www.linkedin.com/in/elaine-y-huang/
               </a>
@@ -67,12 +67,12 @@ export default function Resume(props: { params: { locale: string } }) {
                 alt="Github Logo"
                 width={230}
                 height={230}
-                className="h-10 w-auto rounded-lg object-cover"
+                className="h-12 w-auto rounded-lg object-cover lg:h-16"
               />
               <a
                 href="https://github.com/huang12211/"
                 target="_blank"
-                className="text-sky-600 hover:underline"
+                className="text-xl text-sky-600 hover:underline lg:text-2xl"
               >
                 https://github.com/huang12211/
               </a>

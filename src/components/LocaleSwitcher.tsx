@@ -20,7 +20,7 @@ export default function LocaleSwitcher() {
     <select
       defaultValue={locale}
       onChange={handleChange}
-      className="rounded border border-gray-300 font-medium focus:outline-none focus-visible:ring"
+      className="rounded border border-gray-300 py-0.5 text-xs font-medium focus:outline-none focus-visible:ring md:px-0.5 md:py-1 md:text-lg"
     >
       {AppConfig.locales.map(elt => (
         <option key={elt} value={elt}>
