@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/huang12211/Portfolio2024/compare/v1.5.1...v1.6.0) (2024-11-02)
+
+
+### Bug Fixes
+
+* reference the correct brain video ([12747ff](https://github.com/huang12211/Portfolio2024/commit/12747ff1334becab679546bcdb35935f1379b809))
+* smaller rosa one brain video to comply with github memory limitations ([5547445](https://github.com/huang12211/Portfolio2024/commit/5547445942996239e21aaa13c2964f91b06de2dd))
+
+
+### Features
+
+* rosa one page case study drafted ([f5e330e](https://github.com/huang12211/Portfolio2024/commit/f5e330e3db5fc9838371cee820bcda0f66720aca))
+
 ## [1.5.1](https://github.com/huang12211/Portfolio2024/compare/v1.5.0...v1.5.1) (2024-10-07)
 
 
