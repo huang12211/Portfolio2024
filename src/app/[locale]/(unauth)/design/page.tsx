@@ -57,10 +57,10 @@ export default function Design(props: { params: { locale: string } }) {
             <DesignProjectCard
               card_image_src="/assets/images/ElainesEasecipes.png"
               image_alt="RecipesWebsite"
-              title="Synthetic Cadavers"
-              subtitle="Research Initiative with Concordia University"
-              page_link="/design/synthetic-cadavers/"
-              bg_color="rgb(253 164 175)"
+              title="Personal Food Website"
+              subtitle="A journal of my family's favourite recipes"
+              page_link="/design/food-website/"
+              bg_color="rgb(254 215 170)"
               alignment="end"
             />
           </div>

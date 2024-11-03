@@ -38,7 +38,7 @@ export default function Index(props: { params: { locale: string } }) {
   return (
     <>
       <div className="bg-teal-500 bg-opacity-20 py-10 sm:py-10 md:py-20">
-        <div className="mx-auto grid max-w-screen-xl grid-cols-1 grid-rows-2 items-center justify-items-center gap-4 px-4 sm:grid-cols-2 sm:grid-rows-1 md:gap-16">
+        <div className="mx-auto grid max-w-screen-xl grid-cols-1 grid-rows-2 items-center justify-items-center gap-4 px-16 sm:grid-cols-2 sm:grid-rows-1 sm:px-4 md:gap-16">
           <Cartoon />
           <div className="h-auto w-full pt-4 sm:px-4 sm:pt-0">
             <div>
@@ -46,14 +46,14 @@ export default function Index(props: { params: { locale: string } }) {
                 {t('hi_text')}
               </div>
             </div>
-            <p className="text-2xl font-bold md:text-4xl xl:text-6xl">
+            <p className="text-center text-2xl font-bold sm:text-left md:text-4xl xl:text-6xl">
               {t('im_text')}
               <span className="text-3xl font-bold italic text-rose-500 sm:text-4xl md:text-6xl xl:text-7xl">
                 {t('full_name')}
               </span>
               <span>,</span>
             </p>
-            <p className="pt-2 text-lg font-bold leading-relaxed md:text-2xl xl:text-4xl xl:leading-[3rem]">
+            <p className="pt-2 text-center text-lg font-bold leading-relaxed sm:text-left md:text-2xl xl:text-4xl xl:leading-[3rem]">
               {t('introduce_me_1')}
               <span className="italic text-bright-coral">
                 {t('introduce_me_2')}
