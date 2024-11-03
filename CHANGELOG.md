@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/huang12211/Portfolio2024/compare/v1.6.1...v1.6.2) (2024-11-03)
+
+
+### Bug Fixes
+
+* alignment of home page mobile ([cd1be52](https://github.com/huang12211/Portfolio2024/commit/cd1be520f51f7795c3c5453292a7a0981c2f08ae))
+
 ## [1.6.1](https://github.com/huang12211/Portfolio2024/compare/v1.6.0...v1.6.1) (2024-11-03)
 
 
