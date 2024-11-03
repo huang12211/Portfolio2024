@@ -50,7 +50,7 @@ export default function Design() {
               <p className="caseNonDisclosure">
                 To comply with my non-disclosure agreement, I have omitted confidential information in this case study.
               </p>
-              <div className="mx-auto w-fit overflow-hidden">
+              <div className="mx-auto overflow-hidden">
                 <video
                   src="/assets/images/ROSABrainOverview.mp4"
                   title="ROSA ONE Brain Overview"
@@ -59,7 +59,7 @@ export default function Design() {
                   loop
                   width="1920"
                   height="1080"
-                  className="-mx-9 -my-5 size-auto max-w-[26rem] object-cover object-center sm:max-w-lg lg:max-w-[43.25rem]"
+                  className="-mx-6 -my-24 h-auto max-w-[26rem] object-cover object-center sm:-my-32 sm:max-w-lg md:-mx-8 lg:-my-44 lg:max-w-[43.25rem]"
                 >
                 </video>
               </div>
