@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/huang12211/Portfolio2024/compare/v1.6.0...v1.6.1) (2024-11-03)
+
+
+### Bug Fixes
+
+* responsive display of the rosa brain video ([2523b22](https://github.com/huang12211/Portfolio2024/commit/2523b222fd3c826b4f3605204349f897d85c506d))
+
 # [1.6.0](https://github.com/huang12211/Portfolio2024/compare/v1.5.1...v1.6.0) (2024-11-02)
 
 
