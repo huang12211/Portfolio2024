@@ -82,9 +82,8 @@ export default function Design() {
             <ul className="list-outside list-disc pl-6 text-lg italic">
               <li>definition of the new features being implemented</li>
               <li>the overall user experience while mitigating against design risks and misuse</li>
-              <li>high fidelity mock-ups of the UI</li>
+              <li>establishing and maintaining business relationships with the local medical community</li>
               <li>verifying the performance of the features being developed</li>
-              <li>validating that the implementated features meet the needs of the users in the field</li>
             </ul>
           </div>
         </div>
@@ -318,6 +317,19 @@ export default function Design() {
             </p>
           </div>
         </div>
+
+        <div className="">
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+            <h3 className="text-center">Laying the Foundations of Partnerships</h3>
+            <p>
+              This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
+              At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
+              I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
+              surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
+            </p>
+          </div>
+        </div>
+
         <div className="">
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Verification & Validation Testing</h3>
@@ -342,9 +354,9 @@ export default function Design() {
                 </p>
               </div>
             </div>
-
           </div>
         </div>
+
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">The Impact</h3>
