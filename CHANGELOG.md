@@ -1,3 +1,10 @@
+## [1.6.3](https://github.com/huang12211/Portfolio2024/compare/v1.6.2...v1.6.3) (2024-11-06)
+
+
+### Bug Fixes
+
+* updated content of rosa brain case study ([5435169](https://github.com/huang12211/Portfolio2024/commit/5435169ae542873432c2ce4e007c5487cf6d7a22))
+
 ## [1.6.2](https://github.com/huang12211/Portfolio2024/compare/v1.6.1...v1.6.2) (2024-11-03)
 
 
