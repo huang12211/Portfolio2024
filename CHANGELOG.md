@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/huang12211/Portfolio2024/compare/v1.6.3...v1.6.4) (2024-11-07)
+
+
+### Bug Fixes
+
+* create outline of content of Elaine's Easecipes website case study ([7ad670c](https://github.com/huang12211/Portfolio2024/commit/7ad670c01472b40915e840b3ff06dba8f51cc905))
+
 ## [1.6.3](https://github.com/huang12211/Portfolio2024/compare/v1.6.2...v1.6.3) (2024-11-06)
 
 
