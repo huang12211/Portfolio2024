@@ -1,6 +1,9 @@
 // import { useTranslations } from 'next-intl';
 // import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
+import Image from 'next/image';
+import Link from 'next/link';
+
 export async function generateMetadata() {
   // const t = await getTranslations({
   //   locale: props.params.locale,
@@ -63,9 +66,18 @@ export default function Design() {
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h3 className="text-center">Design Phase</h3>
             <h4 className="text-lg font-semibold">Wireframes in Figma</h4>
-            <p>
-              To Fill In.
-            </p>
+            <div>
+              <iframe
+                // style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+                title="figma low fidelity prototype"
+                width="350"
+                height="650"
+                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpijcVhQPrJIuNDDJV64tVJ%2FWireFrames---Elaine's-Eats%3Ftype%3Ddesign%26node-id%3D10-1131%26scaling%3Dscale-down%26page-id%3D10%253A356%26starting-point-node-id%3D10%253A1131"
+                allowFullScreen
+                className="mx-auto max-h-screen"
+              >
+              </iframe>
+            </div>
           </div>
         </div>
         <div className="">
@@ -88,7 +100,33 @@ export default function Design() {
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
             <h3 className="text-center">Final Product</h3>
-
+            <p>
+              Please click on the following link to peruse the final product:
+              <Link
+                href="https://huang12211.github.io/ElaineFoodWebsite/"
+                target="_blank>"
+                className="text-sky-500 hover:underline"
+              >
+                {' '}
+                Elaine's Easecipes
+              </Link>
+            </p>
+          </div>
+          <div>
+            <Image
+              src="/assets/images/homePageFoodWebsite.png"
+              alt="recipe page for blueberry muffins"
+              width="600"
+              height="1024"
+              className="mx-auto h-auto w-4/5 max-w-screen-lg"
+            />
+            <Image
+              src="/assets/images/recipePage.png"
+              alt="recipe page for blueberry muffins"
+              width="400"
+              height="1024"
+              className="mx-auto h-auto w-1/2 max-w-screen-lg"
+            />
           </div>
         </div>
       </div>
