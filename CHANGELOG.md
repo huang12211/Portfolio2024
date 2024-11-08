@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/huang12211/Portfolio2024/compare/v1.6.4...v1.7.0) (2024-11-08)
+
+
+### Features
+
+* populated food website case study with figma prototype and image of final product ([04f5c6a](https://github.com/huang12211/Portfolio2024/commit/04f5c6ae3622627953308c33b666c8368bf44464))
+
 ## [1.6.4](https://github.com/huang12211/Portfolio2024/compare/v1.6.3...v1.6.4) (2024-11-07)
 
 
