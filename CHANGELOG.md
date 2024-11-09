@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/huang12211/Portfolio2024/compare/v1.7.0...v1.8.0) (2024-11-09)
+
+
+### Features
+
+* updated content of Food Website case study ([a54e511](https://github.com/huang12211/Portfolio2024/commit/a54e511d44d4379670fc96f3fb1d00afd31475e5))
+
 # [1.7.0](https://github.com/huang12211/Portfolio2024/compare/v1.6.4...v1.7.0) (2024-11-08)
 
 
