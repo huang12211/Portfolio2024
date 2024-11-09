@@ -17,14 +17,11 @@ export async function generateMetadata() {
 }
 
 export default function Design() {
-  // unstable_setRequestLocale(props.params.locale);
-  // const t = useTranslations('NaviScout');
-
   return (
     <>
       <div className="pb-4">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
             <div className="flex flex-col gap-2">
               <h1>Elaine's Easecipes</h1>
               <h2 className="text-orange-400">
@@ -54,7 +51,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Context</h3>
             <p>
               This website's main purpose is to act as a source of inspiration whenever I find myself getting tired of reusing the same 7 recipes that come top of mind when I'm out grocery shopping.
@@ -63,7 +60,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Design Phase</h3>
             <h4 className="text-lg font-semibold">Wireframes in Figma</h4>
             <div>
@@ -81,16 +78,27 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Development Phase</h3>
             <h3 className="text-lg font-semibold">Tech Stack</h3>
             <p>
-              The Website has been written in Vanilla Javascript
+              The frontend of the website has been written in vanilla Javascript as was built using:
             </p>
+            <ul className="list-outside list-disc pl-10">
+              <li>Tailwind CSS</li>
+              <li>Heroicons</li>
+            </ul>
+            <p>
+              The backend of the website has been written in Typescript and was built using:
+            </p>
+            <ul className="list-outside list-disc pl-10">
+              <li>Express API</li>
+              <li>Drizzle ORM for better-sqlite3</li>
+            </ul>
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">What I've Learnt</h3>
             <p>
               To fill in.
@@ -98,7 +106,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
+          <div className="grid-row-4 mx-auto my-10 grid max-w-screen-xl gap-4 px-16 text-lg">
             <h3 className="text-center">Final Product</h3>
             <p>
               Please click on the following link to peruse the final product:
@@ -111,21 +119,19 @@ export default function Design() {
                 Elaine's Easecipes
               </Link>
             </p>
-          </div>
-          <div>
             <Image
               src="/assets/images/homePageFoodWebsite.png"
               alt="recipe page for blueberry muffins"
               width="600"
               height="1024"
-              className="mx-auto h-auto w-4/5 max-w-screen-lg"
+              className="mx-auto h-auto w-4/5 md:w-3/5 lg:w-4/6"
             />
             <Image
               src="/assets/images/recipePage.png"
               alt="recipe page for blueberry muffins"
               width="400"
               height="1024"
-              className="mx-auto h-auto w-1/2 max-w-screen-lg"
+              className="mx-auto h-auto w-1/2 md:w-2/5 lg:w-2/6"
             />
           </div>
         </div>
