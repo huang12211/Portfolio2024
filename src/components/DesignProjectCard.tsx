@@ -17,7 +17,7 @@ const DesignProjectCard = (props: {
         href={props.page_link}
       >
         <div
-          className="h-full max-w-screen-xl overflow-hidden rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl"
+          className="size-full max-w-screen-xl overflow-hidden rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl"
           style={{ backgroundColor: props.bg_color, justifySelf: props.alignment }}
         >
           <div className="mx-12 my-6 flex flex-col md:ml-6 md:mr-0">
