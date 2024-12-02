@@ -50,7 +50,7 @@ export default function Design(props: { params: { locale: string } }) {
               image_alt="Hockey"
               title="MEMs for Tibial-axis Registration"
               subtitle="A proof-of-concept for non-invasive tibial-axis registration"
-              page_link="/design/motorized-IMU/"
+              page_link="/design/non-invasive-tibia-mechanical-axis/"
               bg_color="rgb(204 251 241)"
               alignment="start"
             />
