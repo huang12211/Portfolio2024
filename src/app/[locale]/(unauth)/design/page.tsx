@@ -46,11 +46,11 @@ export default function Design(props: { params: { locale: string } }) {
               alignment="start"
             />
             <DesignProjectCard
-              card_image_src="/assets/images/HockeyProject.png"
+              card_image_src="/assets/images/PatentImage.png"
               image_alt="Hockey"
-              title="MEMs for Tibial-axis Registration"
-              subtitle="A proof-of-concept for non-invasive tibial-axis registration"
-              page_link="/design/non-invasive-tibia-mechanical-axis/"
+              title="Patent for Tibial Axis Registration"
+              subtitle="A way to perform total knee arthroplasties without pins"
+              page_link="/design/pinless-tibia-mechanical-axis/"
               bg_color="rgb(204 251 241)"
               alignment="start"
             />

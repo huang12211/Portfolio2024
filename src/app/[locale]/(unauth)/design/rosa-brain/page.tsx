@@ -321,12 +321,21 @@ export default function Design() {
         <div className="">
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Laying the Foundations of Partnerships</h3>
-            <p>
-              This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
-              At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
-              I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
-              surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
-            </p>
+            <div className="grid grid-cols-3 py-6">
+              <p className="col-span-2 content-center px-4">
+                This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
+                At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
+                I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
+                surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
+              </p>
+              <Image
+                src="/assets/images/RI-MUHCLogo.png"
+                alt="RI-MUHC Logo"
+                width="200"
+                height="200"
+                className="mx-auto my-6 w-full object-cover"
+              />
+            </div>
           </div>
         </div>
 
