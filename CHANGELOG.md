@@ -1,3 +1,17 @@
+# [1.9.0](https://github.com/huang12211/Portfolio2024/compare/v1.8.0...v1.9.0) (2025-01-13)
+
+
+### Bug Fixes
+
+* design card width sizing Naviscout bug ([6a4a991](https://github.com/huang12211/Portfolio2024/commit/6a4a9918408d62cdfe0a53af7c487c06a94037f6))
+* error due to typo ([53578c9](https://github.com/huang12211/Portfolio2024/commit/53578c943f0eb594bc90663819cf9c2bf196eb98))
+
+
+### Features
+
+* finished tibia mechanical axis page ([ffda00b](https://github.com/huang12211/Portfolio2024/commit/ffda00bf74cddf8f2c0787b60a1aaca6de538f8b))
+* update Tibial mechanical axis project page ([9d0c8d5](https://github.com/huang12211/Portfolio2024/commit/9d0c8d56d029a773e06eda937044903d2e070f72))
+
 # [1.8.0](https://github.com/huang12211/Portfolio2024/compare/v1.7.0...v1.8.0) (2024-11-09)
 
 
