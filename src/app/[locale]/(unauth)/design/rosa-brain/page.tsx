@@ -21,7 +21,7 @@ export default function Design() {
 
   return (
     <>
-      <div className="bg-gray-100 bg-opacity-30 pb-4">
+      <div className="bg-gray-100 bg-opacity-30">
         <div className="bg-gray-200">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
             <div className="flex flex-col gap-2">
@@ -33,7 +33,7 @@ export default function Design() {
                   className="content-center text-center font-[Georgia] text-4xl text-pink-500"
                 >
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                   </svg>
                 </Link>
               </div>
@@ -66,7 +66,7 @@ export default function Design() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 md:grid-cols-2 md:grid-rows-1">
+        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 lg:grid-cols-2 ">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Goal:</h4>
             <p className="text-lg">
@@ -87,16 +87,17 @@ export default function Design() {
             </ul>
           </div>
         </div>
-
-        <div className="">
+      </div>
+      <div className="bg-white">
+        <div>
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
-            <h3 className="text-center">Early Days...</h3>
+            <h3 className="py-4 text-center">Early Days...</h3>
             <h4>Qualitative Customer Interviews</h4>
             <p>
-              User research at the start of the project was invaluable and was perfomed with 8 surgeons for various backgrounds. Some worked on trauma cases,
-              others on children, and still others on the elderly. Each surgeon had different needs and all of their workflows differed. Around this time,
+              User research at the start of the project was invaluable and was perfomed with 8 surgeons from various backgrounds. Some work primarily on trauma cases,
+              others specialize in pediatric cases, while others mainly treat the elderly. Each surgeon had different needs and all of their workflows differed. Around this time,
               we also consulted with our sales representatives in the field who travel all over the United States and Europe to support cases.
-              All of this information was compiled so that we were able to lay out each surgical workflow that our system had to be able to support and define 3 main surgeon profiles:
+              All of this information was compiled so that we were able to lay out each surgical workflow that our system had to be able to support which helped us to define the following 3 main surgeon profiles:
             </p>
 
             {/* Eventually replace each surgeon's section with a Tabular interactive interface 1.Goals 2.Pains 3.Gains */}
@@ -104,17 +105,17 @@ export default function Design() {
             <div className="my-10 bg-gray-200">
               <h4 className="px-10 py-6">3 Primary Customer Profiles</h4>
               {/* Dr. J */}
-              <div className="mx-8 grid gap-4 pb-4 md:grid-cols-5 md:grid-rows-3">
-                <div className="pt-4 md:pt-0">
+              <div className="mx-8 grid grid-cols-1 gap-4 pb-4 md:grid-cols-5">
+                <div className="pt-6">
                   <Image
                     src="/assets/images/surgeon2.png"
                     alt="surgeon 2"
                     width="144"
                     height="144"
-                    className="object-cover"
+                    className="mx-auto object-cover"
                   />
                 </div>
-                <div className="col-span-4 content-center">
+                <div className="col-span-4 content-start pt-6">
                   <p className="font-semibold italic">Dr. SpeedyGonzales</p>
                   <p>
                     Rising star within their hospital.
@@ -144,16 +145,16 @@ export default function Design() {
                 </div>
 
                 {/* Dr. S */}
-                <div className="pt-4 md:pt-0">
+                <div className="pt-8">
                   <Image
                     src="/assets/images/surgeon3.png"
                     alt="surgeon 2"
                     width="144"
                     height="144"
-                    className="object-cover"
+                    className="mx-auto object-cover"
                   />
                 </div>
-                <div className="col-span-4 content-center">
+                <div className="col-span-4 content-start pt-8">
                   <p className="font-semibold italic">Dr. Experimenter</p>
                   <p>
                     Takes pride in being an early adopter of all technology products for their specialty.
@@ -185,16 +186,16 @@ export default function Design() {
                 </div>
 
                 {/* Dr. D */}
-                <div className="pt-4 md:pt-0">
+                <div className="pt-8">
                   <Image
                     src="/assets/images/surgeon1.png"
                     alt="surgeon 1"
                     width="144"
                     height="144"
-                    className="object-cover"
+                    className="mx-auto object-cover"
                   />
                 </div>
-                <div className="col-span-4 content-center">
+                <div className="col-span-4 content-start pt-8">
                   <p className="font-semibold italic">Dr. Loyal</p>
                   <p>
                     Internationally renown surgeon within their specialty of pediatrics.
@@ -280,28 +281,51 @@ export default function Design() {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="bg-gray-100 bg-opacity-30">
         <div className="">
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Design Phase</h3>
             <h4>Establishing a new Design System</h4>
-            <p>
-              The orignal release was launched in 2008, so the existing UI application's design system is dated. An initiative was launched at the very
-              start to align the new version of the ROSA application with the style of the orthopeadic products in Zimmer Biomet's existing robotic portfolio.
-              This was the first time that a coordinated effort was made to document the existing design system of the Knee, Hip and Shoulder applications so as
-              to be able to leverage them for the more modern Brain application.
-            </p>
+            <div className="grid grid-cols-2 justify-items-center gap-10">
+              <p>
+                The orignal release was launched in 2008, so the existing UI application's design system is dated. An initiative was launched at the very
+                start to align the new version of the ROSA application with the style of the orthopeadic products in Zimmer Biomet's existing robotic portfolio.
+                This was the first time that a coordinated effort was made to document the existing design system of the Knee, Hip and Shoulder applications so as
+                to be able to leverage them for the more modern Brain application.
+              </p>
+              <div className="items-center">
+                <Image
+                  src="/assets/images/ROSAOneApp.png"
+                  alt="ROSA One Application Screen"
+                  width="2458"
+                  height="1090"
+                  className="h-auto w-full object-cover"
+                />
+                <p className="imageLabel">UI from original release</p>
+              </div>
+            </div>
 
             <h4>Figma Mockups and Prototypes</h4>
-            <p>
-              Having learnt from previous projects, the team moved to using Figma and took full advantage of Figma's protyping feature to validate UI
-              changes with the surgeons prior to implementation. This helped the team to drastically decrease the development time of a software feature
-              due to our prototypes being better able to communicate the UI's desired behavior. Using Figma prototypes also allowed us to
-              observe surgeons using the proposed designs without interference, leading to the quick identification of each design's weaknesses.
+            <div className="grid grid-cols-4 items-center justify-items-center gap-10">
+              <Image
+                src="/assets/Icons - General/figma.png"
+                alt="Figma Logo"
+                width="360"
+                height="180"
+                className="h-auto w-full object-cover"
+              />
+              <p className="col-span-3">
+                Having learnt from previous projects, the team moved to using Figma and took full advantage of Figma's protyping feature to validate UI
+                changes with the surgeons prior to implementation. This helped the team to drastically decrease the development time of a software feature
+                due to our prototypes being better able to communicate the UI's desired behavior. Using Figma prototypes also allowed us to
+                observe surgeons using the proposed designs without interference, leading to the quick identification of each design's weaknesses.
 
-              Using Figma prototypes also greatly reduced the amount of information that tends to get lost in translation between product/design
-              and the software team that is implementing the feature.
-            </p>
+                Using Figma prototypes also greatly reduced the amount of information that tends to get lost in translation between product/design
+                and the software team that is implementing the feature.
+              </p>
+            </div>
 
             <h4>Periodic Releases & Exploratory Testing</h4>
             <p>
@@ -317,40 +341,41 @@ export default function Design() {
             </p>
           </div>
         </div>
+      </div>
 
+      <div className="bg-white pb-4">
         <div className="">
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
-            <h3 className="text-center">Laying the Foundations of Partnerships</h3>
-            <div className="grid grid-cols-3 py-6">
-              <p className="col-span-2 content-center px-4">
-                This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
-                At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
-                I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
-                surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
-              </p>
-              <Image
-                src="/assets/images/RI-MUHCLogo.png"
-                alt="RI-MUHC Logo"
-                width="200"
-                height="200"
-                className="mx-auto my-6 w-full object-cover"
-              />
+            <h3 className="text-center">Verification & Validation Phase</h3>
+            <div className="py-4">
+              <h4>Laying the Foundations of Partnerships</h4>
+              <div className="grid grid-cols-3 gap-4 py-6">
+                <p className="col-span-2">
+                  This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
+                  At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
+                  I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
+                  surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
+                </p>
+                <div className="flex items-center">
+                  <Image
+                    src="/assets/images/RI-MUHCLogo.png"
+                    alt="RI-MUHC Logo"
+                    width="200"
+                    height="200"
+                    className="mx-auto w-full object-cover"
+                  />
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-
-        <div className="">
-          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
-            <h3 className="text-center">Verification & Validation Testing</h3>
-            <div className="grid grid-cols-3 border-2 bg-white py-6">
+            <div className="grid items-center border-2 bg-white py-6 lg:grid-cols-3">
               <Image
                 src="/assets/images/cucumberBDD.png"
                 alt="Cucumber Automatic Testing Logo"
                 width="200"
                 height="200"
-                className="mx-auto h-full object-cover"
+                className="mx-auto h-auto w-44 min-w-36 object-cover lg:w-3/5"
               />
-              <div className="col-span-2 content-center px-4">
+              <div className="content-center px-4 lg:col-span-2">
                 <h4 className="py-2">Establishing Automatic Testing Suite</h4>
                 <p>
                   We are currently in the process of establishing the verifcation and validation strategy for the project.
@@ -365,7 +390,9 @@ export default function Design() {
             </div>
           </div>
         </div>
+      </div>
 
+      <div className="bg-gray-100 bg-opacity-30">
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">The Impact</h3>
@@ -388,9 +415,12 @@ export default function Design() {
             <p className="pb-6 text-center text-gray-400">_______</p>
           </div>
         </div>
-        <div className="">
+      </div>
+
+      <div className="bg-white pb-4">
+        <div>
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 text-lg">
-            <h3 className="text-center">What I've learnt, so far...</h3>
+            <h3 className="text-center">What I've learnt so far...</h3>
             <p>
               Unlike previous projects that I had worked on, this project was quite severely underfunded and was always lacking ressources.
               This brought about a significant challenge to the maintenance of the team's morale. In addition, I found that scrum teams that bridged
