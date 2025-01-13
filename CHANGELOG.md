@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/huang12211/Portfolio2024/compare/v1.9.0...v1.10.0) (2025-01-13)
+
+
+### Features
+
+* release ([a84aebe](https://github.com/huang12211/Portfolio2024/commit/a84aebebd876cba1507514cd6e2621a83409396a))
+
 # [1.9.0](https://github.com/huang12211/Portfolio2024/compare/v1.8.0...v1.9.0) (2025-01-13)
 
 
