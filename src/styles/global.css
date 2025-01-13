@@ -10,13 +10,13 @@
     @apply content-center text-center font-[Georgia] font-black italic text-xl lg:text-2xl;
   }
   h3 {
-    @apply text-2xl font-black;
+    @apply text-4xl font-black uppercase italic text-gray-700 pt-10 pb-6;
   }
   h4 {
-    @apply text-xl font-semibold;
+    @apply text-2xl font-semibold;
   }
   h5 {
-    @apply text-lg font-medium py-2;
+    @apply text-xl font-medium py-2;
   }
 }
 
@@ -31,7 +31,7 @@
     @apply p-0;
   }
   .impactNumber {
-    @apply text-7xl font-[Georgia] font-black;
+    @apply text-8xl font-[Georgia] font-black;
   }
   .impactPercent {
     @apply text-4xl font-[Georgia];
@@ -40,6 +40,9 @@
     @apply text-xl;
   }
   .impactMetric {
-    @apply text-5xl;
+    @apply text-4xl text-gray-600;
+  }
+  .imageLabel {
+    @apply text-center italic text-base text-gray-400;
   }
 }

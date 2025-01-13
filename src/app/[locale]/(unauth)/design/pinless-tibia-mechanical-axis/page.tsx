@@ -9,8 +9,8 @@ export async function generateMetadata() {
   // });
 
   return {
-    title: 'Synthetic Cadavers',
-    description: 'Synthetic Cadavers Research Initiative',
+    title: 'Non-invasive Method for Tibial Mechanical-Axis Location',
+    description: 'Non-invasive Method for Tibial Mechanical-Axis Location',
   };
 }
 
@@ -20,16 +20,16 @@ export default function Design() {
 
   return (
     <>
-      <div className="pb-4">
+      <div className="bg-gray-100 bg-opacity-30 pb-4">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
             <div className="flex flex-col gap-2">
-              <h1 className="content-center text-center font-[Georgia] text-4xl font-black">Non-invasive Method for Tibial Mechanical-Axis Location</h1>
-              <h2 className="content-center text-center font-[Georgia] text-2xl font-black italic text-teal-500">
+              <h1>Non-invasive Method for Tibial Mechanical Axis Location</h1>
+              <h2 className="text-teal-500">
                 A new way to register the tibia for total knee arthroplasties
               </h2>
             </div>
-            <div className="flex flex-col content-center gap-2 text-center">
+            <div className="caseIntro">
               <p>
                 I along with a team of 6 other coworkers created a proof of concept for a non-invasive way to locate the mechanical axis of the tibia.
                 A patent was then filed which can be consulted
@@ -38,138 +38,163 @@ export default function Design() {
                     {' '}
                     here
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mb-2 ml-1 inline size-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                     </svg>
                   </a>
                 </span>
               </p>
-              <p className="text-lg italic text-gray-500">
+              <p className="caseNonDisclosure">
                 To comply with my non-disclosure agreement, I have omitted confidential information in this case study.
               </p>
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl grid-cols-2 gap-4 p-6 text-lg">
-          <div className="flex flex-col gap-2 rounded-lg border border-gray-200 p-4">
-            <h3 className="text-xl font-medium">The Goal:</h3>
-            <p className="text-base">
-              Improve upon the existing product line, iAssist, which gives surgeons with smaller budgets a way to refine their cuts of the femur and the tibia
-              in preparation for the installation of the knee joint implant using MEMs devices instead of a robot.
-            </p>
-          </div>
-          <div className="flex flex-col gap-2 rounded-lg border border-gray-200 p-4">
-            <h3 className="text-xl font-medium">My Role:</h3>
-            <p className="text-base">
-              Project advocate, coordinator, and mechanical designer for the prototype.
-            </p>
-          </div>
-        </div>
-        <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-semibold">Context</h2>
-            <p>
-              This was one of the projects to come out of the innovation program from the Montreal office.
-              The initial intention was to generate a design for an implantable IMU into the medullary canal of the femur and tibia in order to perform a total knee arthroplasty.
-              During the brainstorming phase of this project, an idea to redesign the existing hardware used to register the mechanical axis of the tibia was emphasized.
-              In the end, a method that incorporates a distance measurement was converged upon and was deemed important enough to patent.
-              All of the best ideas for every part of the surgical workflow were then fleshed out in a proof of concept to be presented to the board of directors that were visiting the Montreal office in 3 months.
-              Creating this prototype because a passion project for the team, where many lunch and after-hour crafting sessions took place in order to finish the prototype in tiem for the presentation in August for the board of directors.
-            </p>
-          </div>
-        </div>
-        <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-black">Brainstorming Phase</h2>
-            <h3 className="text-lg font-semibold">User Journey</h3>
-            <p>
-              The user's journey was fleshed out in a team of 4.
-            </p>
-
-            <Image
-              src="/assets/images/iAssistTibialAlignmentNoLeg.png"
-              alt="iAssist Tibia Alignment System"
-              width={616}
-              height={1352}
-              className="h-auto w-1/4 object-cover"
-            />
-
-          </div>
-        </div>
-        <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-black">Building it Out</h2>
-            <h4 className="text-lg font-semibold">Challenges</h4>
-            <p>
-              1. fighting for SW ressources
-              2. Fighting for time to work on the proejct from project managers
-              3. coordination
-              4. transfer of leadership responsibilities????
-              5. cross-departmental collaboration
-              6. ramping up Legal Team on patent
-              The original team that came up with the rough idea of what to build, did not have the repertoire to create the software components that were required.
-              So the initial challenge was to recruit some individiuals to build out software side for the proof of concept and simultaneously negotiate with their project leads to
-              see if they could dedicate a minimum of 8 hours a week towards this project. Unfortunately, we had poor luck and around half of the projects that
-              were under development at that time hit a emergent state due to various reasons and the software part of the prototype kept having to change hands.
-              Unfortunately, we went through 3 different team iterations before finally finding a version that was able to deliver things on time.
-              The original ressources assigned to the project were not able actually work on the prototype
-            </p>
-            <div className="grid grid-cols-3 gap-8 py-6">
-              <div>
-                <h3 className="text-base font-medium">Insight 1</h3>
-                <p className="pt-2 text-sm">
-                  To Fill In.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-base font-medium">Insight 2</h3>
-                <p className="pt-2 text-sm">
-                  To Fill In.
-                </p>
-              </div>
-              <div>
-                <h3 className="text-base font-medium">Insight 3</h3>
-                <p className="pt-2 text-sm">
-                  To Fill In.
-                </p>
-              </div>
-            </div>
-
-            <h4 className="text-lg font-semibold">User Testing</h4>
-            <p>
-              To Fill in.
-            </p>
-            <div>
-              <h3 className="pb-2 pt-4 text-base font-medium">How research was compiled and shared</h3>
-              <p>
-                To Fill in.
+        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 lg:grid-cols-2">
+          <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
+            <h4>The Goal:</h4>
+            <div className="md:items-top grid grid-cols-3 items-center justify-items-center gap-4">
+              <Image
+                src="/assets/images/implantable_IMU.png"
+                alt="reference patent image"
+                width="638"
+                height="1252"
+                className="h-auto w-40 min-w-36 object-cover lg:w-[75%]"
+              />
+              <p className="col-span-2 text-lg">
+                There was a mandate from leadership to build upon an previously filed patent on implantable sensors that surgeons could use to refine their cuts of the femur and the tibia
+                in preparation for the installation of the knee joint implant instead of using an expensive robot.
               </p>
             </div>
           </div>
-        </div>
-        {/* <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-bold">Verification & Validation Testing</h2>
-            <h3 className="text-lg font-semibold">Verification Lead</h3>
-            <p>
-              To Fill in.
+          <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
+            <h4>My Role:</h4>
+            <p className="text-lg">
+              I was the acting
+              {' '}
+              <span className="text-teal-500">product manager</span>
+              {' '}
+              while maintaining my secondary role as the
+              {' '}
+              <span className="text-teal-500">mechanical designer</span>
+              {' '}
+              of the prototype.
             </p>
           </div>
-        </div> */}
+        </div>
+
+        <div>
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+            <h3 className="text-center">Overview</h3>
+            <p>
+              As part of the innovation program, the initial mandate was to create different designs for the execution of a knee replacement surgery using the patented implantable IMU into the medullary canals of the femur and tibia.
+              During the brainstorming phase of this project, a non-invasive method of locating the long axis of the tibia was identified and patented.
+              Immediately upon presenting the ideas to leadership, they requested that a proof of concept be built in time for the board of directors visit in 3 months.
+              The patented method required a redesign of the typical hardware used in knee replacement surgery in order to incorporate a distance measuring system.
+              Creating this prototype became a passion project for the team, where many after-work crafting sessions took place in order to finish the prototype in time for the board of directors.
+            </p>
+          </div>
+        </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-bold">The Impact</h2>
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+            <h3 className="text-center">Brainstorming Phase</h3>
+            <div className="border border-gray-200 bg-gray-100 p-6">
+              <h4 className="text-center">User Journeys</h4>
+              <h5 className="pb-6">Iterations</h5>
+              <Image
+                src="/assets/images/InitialStoryBoard.png"
+                alt="Final Story Board"
+                width="639"
+                height="819"
+                className="h-auto w-full object-cover"
+              />
+              <p className="p-6 text-center">
+                The generic user flow was first mapped out to be used to brainstorm multiple different technological solutions that could be implemented for each step of the workflow using the
+                {' '}
+                <span className="font-bold text-teal-500">Crazy 8s Method</span>
+                .
+                This lead to the generation of 3 different femur and 3 different tibial resection workflows. The pros and cons of each workflow was then presented to leadership.
+              </p>
+              <h5 className="py-6">Results</h5>
+              <div className="grid grid-cols-4 items-end gap-4">
+                <Image
+                  src="/assets/images/iAssistTibialAlignmentNoLeg.png"
+                  alt="iAssist Tibia Alignment System"
+                  width={616}
+                  height={1352}
+                  className="h-auto w-full object-cover"
+                />
+                <Image
+                  src="/assets/images/FinalMiniRobotStoryBoard.png"
+                  alt="Final Story Board"
+                  width="639"
+                  height="819"
+                  className="col-span-3 mx-auto h-auto w-[90%] object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-4 items-center gap-4 py-2">
+                <p className="imageLabel">iAssist Tibial Alignment Guide</p>
+                <p className="imageLabel col-span-3">Prototype of Novel Tibial Mechanical Axis Location Method</p>
+              </div>
+              <p className="p-6 text-center">
+                The final workflow that was favoured by leadership for the tibia was the one that included a novel way
+                to locate the tibia using hardware that is much
+                {' '}
+                <span className="font-bold text-teal-500">easier to manipulate</span>
+                {' '}
+                than the traditional tibial alignment guide.
+              </p>
+            </div>
+
+          </div>
+        </div>
+        <div className="">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+            <h3 className="text-center">Prototyping Phase</h3>
+            <h4>Challenges</h4>
+            <div className="grid grid-cols-3 gap-8 py-6">
+              <div className="rounded-2xl border border-gray-200 p-4">
+                <h5>Expanding the Team</h5>
+                <p className="pt-2 text-base">
+                  The original team that came up with the patented design, did not have the skills to create the software components that were required.
+                  So the initial challenge was to recruit some individiuals to build out software side for the proof of concept.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-gray-200 p-4">
+                <h5>Negotiating without Authority</h5>
+                <p className="pt-2 text-base">
+                  To recruit the people with the skills required to build out the envisionned prototype, we had to negotiate with project leads to
+                  ensure that all team members could dedicate at least 8 hours a week on this side project. Unfortunately, we had poor luck and around half of the projects that
+                  were under development at that time hit a emergent state due to various reasons and the software part of the prototype kept having to change hands.
+                </p>
+              </div>
+              <div className="rounded-2xl border border-gray-200 p-4">
+                <h5>Stepping up as Acting Product Manager</h5>
+                <p className="pt-2 text-base">
+                  During the project's prototyping phase, the original product manager had to stop overseeing this project's progression. I therefore stepped up to the plate
+                  and took over their responsibilities temporarily until they were freed up to resume their role on this project. In the interim, I provided progress reports to the leadership team,
+                  advocated for the ressources the project needed, and dealt with all blocking points that came up.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+            <h3 className="text-center">The Impact</h3>
             <p>
               The final prototype was presented to the board of directors in August of 2023.
               This led to the project being greenlit for the upcoming year's development roadmap.
             </p>
             <p className="pb-4 text-center text-gray-400">_______</p>
             <div className="flex flex-col gap-2 bg-gray-200 px-6 py-10 text-center">
-              <h1 className="text-6xl font-black text-teal-500">
-                100%
-              </h1>
-              <h4>Buy-in of the </h4>
-              <h2 className="text-3xl">Board of Directors</h2>
-              <p className="pt-2">
+              <p className="impactNumber text-teal-500">
+                100
+                <span className="impactPercent">%</span>
+              </p>
+              <p className="impactChange">Buy-in of the </p>
+              <p className="impactMetric">Board of Directors</p>
+              <p className="impactChange pt-6">
                 The entire visiting board of directors were impressed and
                 <span className="font-bold"> greenlit the budget</span>
                 {' '}
@@ -180,9 +205,10 @@ export default function Design() {
             <p className="pb-6 text-center text-gray-400">_______</p>
           </div>
         </div>
-        <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-base">
-            <h2 className="text-xl font-bold">What I learned</h2>
+
+        <div>
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 text-lg">
+            <h3 className="text-center">What I learned</h3>
             <p>
               This was a passion project for the entire team.
               It was the first instance in my corporate career where I had the chance to work alongside individuals who were passionate enough to work into the wee hours of the morning.
