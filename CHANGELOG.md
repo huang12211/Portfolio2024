@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/huang12211/Portfolio2024/compare/v1.10.1...v1.11.0) (2025-01-18)
+
+
+### Features
+
+* updated resume ([8cef16b](https://github.com/huang12211/Portfolio2024/commit/8cef16b80ed149d2a4499f3e1a8579fc56d7acaf))
+
 ## [1.10.1](https://github.com/huang12211/Portfolio2024/compare/v1.10.0...v1.10.1) (2025-01-18)
 
 
