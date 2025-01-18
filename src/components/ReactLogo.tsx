@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const ReactLogo = () => (
   <Image
-    src="/assets/Icons - General/ReactLogo.png"
+    src="/assets/Icons - General/reactLogo.png"
     alt="React Logo"
     width={920}
     height={920}
