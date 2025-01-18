@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/huang12211/Portfolio2024/compare/v1.11.0...v1.11.1) (2025-01-18)
+
+
+### Bug Fixes
+
+* vercel redering of pdfWindow ([36e798d](https://github.com/huang12211/Portfolio2024/commit/36e798dd46d804c277cf858dfad95b081ae28f8b))
+
 # [1.11.0](https://github.com/huang12211/Portfolio2024/compare/v1.10.1...v1.11.0) (2025-01-18)
 
 
