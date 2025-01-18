@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/huang12211/Portfolio2024/compare/v1.10.0...v1.10.1) (2025-01-18)
+
+
+### Bug Fixes
+
+* react logo display on home page bug ([da08b08](https://github.com/huang12211/Portfolio2024/commit/da08b08e1211d4f8ac2684813759d7ffaf9514fa))
+
 # [1.10.0](https://github.com/huang12211/Portfolio2024/compare/v1.9.0...v1.10.0) (2025-01-13)
 
 
