@@ -12,11 +12,11 @@ const PDFWindow = (props: {
   ).toString();
 
   return (
-    <Document
-      file={props.pdf_path}
-    >
-      <Page pageNumber={1} width={1024} renderAnnotationLayer={false} />
-    </Document>
+    <>
+      <Document file={props.pdf_path}>
+        <Page pageNumber={1} width={1024} renderAnnotationLayer={false} />
+      </Document>
+    </>
   );
 };
 
