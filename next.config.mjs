@@ -4,6 +4,8 @@ import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
 import withNextIntl from 'next-intl/plugin';
+// import path from 'node:path';//Added for PDFWindow
+// import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
@@ -14,6 +16,13 @@ const withNextIntlConfig = withNextIntl('./src/libs/i18n.ts');
 const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
+
+// //Added for PDFWindow
+// const pdfjsDistDir = path.dirname("pdfjs-dist/package.json");
+// const cMapsDir = path.join(pdfjsDistDir, "cmaps");
+// const standardFontsDir = path.join(pdfjsDistDir, "standard_fonts");
+// const pdfWorkerPath = path.join(pdfjsDistDir, "build", "pdf.worker.min.mjs");
+// //Added for PDFWindow
 
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(
@@ -26,7 +35,43 @@ export default withSentryConfig(
       reactStrictMode: true,
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
+        // serverActions: true, //Added for PDFWindow
       },
+      // webpack: (config) => { //Added for PDFWindow
+      //   config.resolve.alias.canvas = false;
+
+      //   config.plugins.push(
+      //       new CopyWebpackPlugin({
+      //           patterns: [
+      //               { from: cMapsDir, to: "static/chunks/pdfjs/cmaps/" },
+      //           ],
+      //       })
+      //   );
+
+      //   config.plugins.push(
+      //       new CopyWebpackPlugin({
+      //           patterns: [
+      //               {
+      //                   from: standardFontsDir,
+      //                   to: "static/chunks/pdfjs/standard_fonts/",
+      //               },
+      //           ],
+      //       })
+      //   );
+
+      //   config.plugins.push(
+      //       new CopyWebpackPlugin({
+      //           patterns: [
+      //               {
+      //                   from: pdfWorkerPath,
+      //                   to: "static/chunks/pdfjs/build/pdf.worker.min.js",
+      //               },
+      //           ],
+      //       })
+      //   );
+
+      //   return config;
+      // },//Added for PDFWindow
     }),
   ),
   {
@@ -67,10 +112,3 @@ export default withSentryConfig(
     telemetry: false,
   },
 );
-
-// module.exports = {
-//   webpack: (config) => {
-//     config.resolve.alias.canvas = false;
-//     return config;
-//   },
-// }
