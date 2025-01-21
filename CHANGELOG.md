@@ -1,3 +1,10 @@
+## [1.11.3](https://github.com/huang12211/Portfolio2024/compare/v1.11.2...v1.11.3) (2025-01-21)
+
+
+### Bug Fixes
+
+* design page mobile display ([a940c0b](https://github.com/huang12211/Portfolio2024/commit/a940c0bb28105504bbb3495a0995e45fc632ad99))
+
 ## [1.11.2](https://github.com/huang12211/Portfolio2024/compare/v1.11.1...v1.11.2) (2025-01-19)
 
 
