@@ -26,7 +26,7 @@ export default function Design(props: { params: { locale: string } }) {
           <h1>{t('page_title')}</h1>
         </div>
         <div className="relative">
-          <div className="mx-20 grid grid-cols-1 gap-10 md:mx-14 md:grid-cols-2">
+          <div className="mx-2 grid grid-cols-1 gap-10 md:mx-14 md:grid-cols-2">
             <DesignProjectCard
               card_image_src="/assets/images/ROSABrain2.png"
               image_alt="ROSA Brain"
