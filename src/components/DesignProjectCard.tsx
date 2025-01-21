@@ -17,10 +17,10 @@ const DesignProjectCard = (props: {
         href={props.page_link}
       >
         <div
-          className="size-full max-w-screen-xl overflow-hidden rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl"
+          className="h-[28rem] w-full max-w-screen-xl overflow-hidden rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl md:h-full"
           style={{ backgroundColor: props.bg_color, justifySelf: props.alignment }}
         >
-          <div className="mx-12 my-6 flex flex-col md:ml-6 md:mr-0">
+          <div className="m-6 flex flex-col md:mx-12 md:ml-6 md:mr-0">
             <div className="flex w-full flex-col content-center gap-2 px-2">
               <p className="text-3xl font-bold">
                 {props.title}
@@ -35,7 +35,7 @@ const DesignProjectCard = (props: {
                 alt={props.image_alt}
                 width="2300"
                 height="1655"
-                className="mx-auto h-[36rem] w-auto rounded-t-xl object-cover md:ml-[5%] md:rounded-tl-xl md:object-left-top"
+                className="mx-auto h-96 w-auto rounded-t-xl object-cover md:ml-[5%] md:h-[36rem] md:rounded-tl-xl md:object-left-top"
               />
             </div>
           </div>
