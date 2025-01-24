@@ -78,8 +78,8 @@ export default function Index(props: { params: { locale: string } }) {
         {/* <div className="bg-sky-200"> */}
         <div>
           <div className="mx-auto my-2 max-w-screen-xl">
-            <div className="mx-6 grid grid-cols-3 gap-8 rounded-3xl border-2 px-4 py-6 md:py-12">
-              <div className="col-span-2 py-2 text-right">
+            <div className="mx-6 grid rounded-3xl border-2 px-4 py-6 md:grid-cols-3 md:gap-8 md:py-12">
+              <div className="md:col-span-2 md:py-2 md:text-right">
                 <div className="pb-4 text-xl md:text-3xl">
                   <p>
                     {t('ai_ml_paragraph')}
@@ -95,7 +95,7 @@ export default function Index(props: { params: { locale: string } }) {
 
                 </div>
                 <div className="text-base md:text-xl">
-                  <p className="ml-2 w-full border-b border-gray-500 pt-2 text-gray-500">
+                  <p className="w-full border-b border-gray-500 pt-2 text-gray-500 md:ml-2">
                     {t('experience_section')}
                   </p>
                   <p className="pt-2 font-bold text-gray-500">
@@ -112,7 +112,7 @@ export default function Index(props: { params: { locale: string } }) {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col place-items-center gap-2">
+              <div className="flex flex-col place-items-center gap-2 pt-4 md:pt-0">
                 <HomeSectionImg
                   image_src="/assets/Home/AI.png"
                   image_alt="AI image"
@@ -131,11 +131,11 @@ export default function Index(props: { params: { locale: string } }) {
         {/* <div className="bg-rose-200"> */}
         <div>
           <div className="mx-auto my-2 max-w-screen-xl">
-            <div className="mx-6 grid grid-cols-3 gap-8 rounded-3xl border-2 px-4 py-6 md:py-12">
-              <div className="flex flex-col place-items-center gap-2">
+            <div className="mx-6 grid rounded-3xl border-2 px-4 py-6 md:grid-cols-3 md:gap-8 md:py-12">
+              <div className="hidden flex-col place-items-center gap-2 pb-4 md:flex md:pb-0">
                 <HomeSectionImg
                   image_src="/assets/Home/CleanCode.png"
-                  image_alt="AI image"
+                  image_alt="Clean Code Image"
                 />
                 <Link
                   href=" /development/"
@@ -144,7 +144,7 @@ export default function Index(props: { params: { locale: string } }) {
                   {t('see_projects')}
                 </Link>
               </div>
-              <div className="col-span-2 py-2 text-left">
+              <div className="md:col-span-2 md:py-2 md:text-left">
                 <div className="pb-4 text-xl md:text-3xl">
                   <p>
                     {t('developer_role')}
@@ -182,6 +182,18 @@ export default function Index(props: { params: { locale: string } }) {
                   <Matlab></Matlab>
                 </div>
               </div>
+              <div className="flex flex-col place-items-center gap-2 pt-4 md:hidden">
+                <HomeSectionImg
+                  image_src="/assets/Home/CleanCode.png"
+                  image_alt="Clean Code Image"
+                />
+                <Link
+                  href=" /development/"
+                  className="mx-6 flex shrink justify-center rounded-full border-4 border-gray-700 px-6 text-center text-base shadow-xl duration-150 hover:scale-110 hover:bg-rose-300 hover:font-bold md:text-xl"
+                >
+                  {t('see_projects')}
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -189,8 +201,8 @@ export default function Index(props: { params: { locale: string } }) {
         {/* <div className="bg-purple-200"> */}
         <div>
           <div className="mx-auto my-2 max-w-screen-xl">
-            <div className="mx-6 grid grid-cols-3 gap-8 rounded-3xl border-2 px-4 py-6 md:py-12">
-              <div className="col-span-2 py-2 text-right">
+            <div className="mx-6 grid rounded-3xl border-2 px-4 py-6 md:grid-cols-3 md:gap-8 md:py-12">
+              <div className="md:col-span-2 md:py-2 md:text-right">
                 <div className="pb-4 text-xl md:text-3xl">
                   <p>
                     {t('design_role')}
@@ -216,7 +228,7 @@ export default function Index(props: { params: { locale: string } }) {
                     {t('tools_section')}
                   </p>
                 </div>
-                <div className="flex h-14 flex-row items-center justify-end gap-4 overflow-hidden object-none">
+                <div className="flex h-14 flex-row items-center gap-4 overflow-hidden object-none md:justify-end">
                   <HtmlLogo></HtmlLogo>
                   <Css></Css>
                   <JavascriptLogo></JavascriptLogo>
@@ -224,7 +236,7 @@ export default function Index(props: { params: { locale: string } }) {
                   <Figma></Figma>
                 </div>
               </div>
-              <div className="flex flex-col place-items-center gap-2">
+              <div className="flex flex-col place-items-center gap-2 pt-4 md:pt-0">
                 <HomeSectionImg
                   image_src="/assets/Home/UX_erased.png"
                   image_alt="UX image"
