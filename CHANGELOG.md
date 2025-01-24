@@ -1,3 +1,10 @@
+## [1.11.4](https://github.com/huang12211/Portfolio2024/compare/v1.11.3...v1.11.4) (2025-01-24)
+
+
+### Bug Fixes
+
+* home page mobile display and contact page mobile display ([1118168](https://github.com/huang12211/Portfolio2024/commit/1118168579efcfbe9edce12094bec0bdbdb54d60))
+
 ## [1.11.3](https://github.com/huang12211/Portfolio2024/compare/v1.11.2...v1.11.3) (2025-01-21)
 
 
