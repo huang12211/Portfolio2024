@@ -50,19 +50,6 @@ export default function Layout(props: {
       )}
       rightNav={(
         <>
-          {/* <button className="sm:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-            </svg>
-            <div className = "absolute text-right right-16">
-              <ul className = "flex flex-col gap-4 pt-6 pb-4 px-4 bg-white rounded-lg">
-                <li><Link href="/development/">{t('development_link')}</Link></li>
-                <li><Link href="/design/">{t('design_link')}</Link></li>
-                <li><Link href="/resume/">{t('resume_link')}</Link></li>
-                <li><Link href="/contact/">{t('contact_link')}</Link></li>
-              </ul>
-            </div>
-          </button> */}
           <MobileMenu />
           <div className="hidden size-5 duration-150 hover:scale-110 sm:block md:size-8">
             <LinkedIn></LinkedIn>
