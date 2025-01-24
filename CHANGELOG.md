@@ -1,3 +1,11 @@
+## [1.11.5](https://github.com/huang12211/Portfolio2024/compare/v1.11.4...v1.11.5) (2025-01-24)
+
+
+### Bug Fixes
+
+* mobile dropdown menu ([b2c6f00](https://github.com/huang12211/Portfolio2024/commit/b2c6f0040b86ca76a9db80a4e98574c898f2aea4))
+* resolved bug in mobile menu ([20b91a0](https://github.com/huang12211/Portfolio2024/commit/20b91a092b46d349bbedb6e1958d838cb70f5599))
+
 ## [1.11.4](https://github.com/huang12211/Portfolio2024/compare/v1.11.3...v1.11.4) (2025-01-24)
 
 
