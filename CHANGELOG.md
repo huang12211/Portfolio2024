@@ -1,3 +1,10 @@
+## [1.11.6](https://github.com/huang12211/Portfolio2024/compare/v1.11.5...v1.11.6) (2025-01-25)
+
+
+### Bug Fixes
+
+* display of images in mobile config for rosa brain project page ([6aa1e5c](https://github.com/huang12211/Portfolio2024/commit/6aa1e5cc6e9ad631066604f99a603a89ac8c0af2))
+
 ## [1.11.5](https://github.com/huang12211/Portfolio2024/compare/v1.11.4...v1.11.5) (2025-01-24)
 
 
