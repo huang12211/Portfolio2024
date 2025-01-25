@@ -59,7 +59,7 @@ export default function Design() {
                   loop
                   width="1920"
                   height="1080"
-                  className="-mx-6 -my-24 h-auto max-w-[26rem] object-cover object-center sm:-my-32 sm:max-w-lg md:-mx-8 lg:-my-44 lg:max-w-[43.25rem]"
+                  className="-my-[25%] h-auto max-w-full object-cover object-center sm:-my-32 sm:max-w-lg md:-mx-8 lg:-my-44 lg:max-w-[43.25rem]"
                 >
                 </video>
               </div>
@@ -237,7 +237,7 @@ export default function Design() {
                     alt="Clock"
                     width="144"
                     height="144"
-                    className="mx-auto h-64 w-auto object-cover py-2"
+                    className="mx-auto h-auto max-h-64 w-4/5 object-cover py-2 sm:w-3/5 md:h-64 md:w-auto"
                   />
                   <h5>Speed it Up</h5>
                   <p className="pt-2 text-base">
@@ -251,7 +251,7 @@ export default function Design() {
                     alt="Paths to choose from"
                     width="144"
                     height="144"
-                    className="mx-auto h-64 w-auto object-cover py-2"
+                    className="mx-auto h-auto max-h-64 w-full object-cover py-2 sm:w-4/5 md:h-64 md:w-auto"
                   />
                   <h5>Provide More Guidance</h5>
                   <p className="pt-2 text-base">
@@ -288,14 +288,24 @@ export default function Design() {
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
             <h3 className="text-center">Design Phase</h3>
             <h4>Establishing a new Design System</h4>
-            <div className="grid grid-cols-2 justify-items-center gap-10">
+            <div className="grid grid-cols-1 justify-items-center gap-4 lg:grid-cols-2 lg:gap-10">
+              <div className="w-5/6 lg:hidden">
+                <Image
+                  src="/assets/images/ROSAOneApp.png"
+                  alt="ROSA One Application Screen"
+                  width="2458"
+                  height="1090"
+                  className="h-auto w-full object-cover"
+                />
+                <p className="imageLabel">UI from original release</p>
+              </div>
               <p>
                 The orignal release was launched in 2008, so the existing UI application's design system is dated. An initiative was launched at the very
                 start to align the new version of the ROSA application with the style of the orthopeadic products in Zimmer Biomet's existing robotic portfolio.
                 This was the first time that a coordinated effort was made to document the existing design system of the Knee, Hip and Shoulder applications so as
                 to be able to leverage them for the more modern Brain application.
               </p>
-              <div className="items-center">
+              <div className="hidden items-center lg:flex">
                 <Image
                   src="/assets/images/ROSAOneApp.png"
                   alt="ROSA One Application Screen"
@@ -308,15 +318,15 @@ export default function Design() {
             </div>
 
             <h4>Figma Mockups and Prototypes</h4>
-            <div className="grid grid-cols-4 items-center justify-items-center gap-10">
+            <div className="grid grid-cols-1 items-center justify-items-center gap-4 lg:grid-cols-4 lg:gap-10">
               <Image
                 src="/assets/Icons - General/figma.png"
                 alt="Figma Logo"
                 width="360"
                 height="180"
-                className="h-auto w-full object-cover"
+                className="h-auto w-2/5 object-cover lg:w-full"
               />
-              <p className="col-span-3">
+              <p className="lg:col-span-3">
                 Having learnt from previous projects, the team moved to using Figma and took full advantage of Figma's protyping feature to validate UI
                 changes with the surgeons prior to implementation. This helped the team to drastically decrease the development time of a software feature
                 due to our prototypes being better able to communicate the UI's desired behavior. Using Figma prototypes also allowed us to
@@ -349,14 +359,23 @@ export default function Design() {
             <h3 className="text-center">Verification & Validation Phase</h3>
             <div className="py-4">
               <h4>Laying the Foundations of Partnerships</h4>
-              <div className="grid grid-cols-3 gap-4 py-6">
-                <p className="col-span-2">
+              <div className="grid grid-cols-1 gap-4 py-6 lg:grid-cols-3">
+                <div className="lg:hidden">
+                  <Image
+                    src="/assets/images/RI-MUHCLogo.png"
+                    alt="RI-MUHC Logo"
+                    width="200"
+                    height="200"
+                    className="mx-auto w-4/5 object-cover sm:w-3/5"
+                  />
+                </div>
+                <p className="lg:col-span-2">
                   This project had many unique needs that could be best answered by having local access to all imaging modalities and to a wet lab for R&D investigations.
                   At the begining of the project, no such relationships existed between Zimmer Biomet and the local medical community.
                   I therefore led the initiative to put in place key relationships that I maintain to this day which has helped our project not only gain answers to fundamental questions
                   surrounding the new features we wish to implement, but also helped our team reduce development costs we would have incurred otherwise.
                 </p>
-                <div className="flex items-center">
+                <div className="hidden items-center lg:flex ">
                   <Image
                     src="/assets/images/RI-MUHCLogo.png"
                     alt="RI-MUHC Logo"
@@ -368,13 +387,22 @@ export default function Design() {
               </div>
             </div>
             <div className="grid items-center border-2 bg-white py-6 lg:grid-cols-3">
-              <Image
-                src="/assets/images/cucumberBDD.png"
-                alt="Cucumber Automatic Testing Logo"
-                width="200"
-                height="200"
-                className="mx-auto h-auto w-44 min-w-36 object-cover lg:w-3/5"
-              />
+              <div className="grid grid-cols-2 items-center gap-2 lg:grid-cols-1">
+                <Image
+                  src="/assets/images/cucumberBDD.png"
+                  alt="Cucumber Automatic Testing Logo"
+                  width="200"
+                  height="200"
+                  className="mx-auto h-44 w-auto min-w-36 object-cover lg:h-36"
+                />
+                <Image
+                  src="/assets/images/playwrightLogo.png"
+                  alt="Playwright Logo"
+                  width="690"
+                  height="448"
+                  className="mx-auto h-40 w-auto min-w-36 object-cover lg:h-32"
+                />
+              </div>
               <div className="content-center px-4 lg:col-span-2">
                 <h4 className="py-2">Establishing Automatic Testing Suite</h4>
                 <p>
