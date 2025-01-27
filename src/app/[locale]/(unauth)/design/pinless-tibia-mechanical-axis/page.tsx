@@ -22,7 +22,7 @@ export default function Design() {
     <>
       <div className="bg-gray-100 bg-opacity-30 pb-4">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <h1>Non-invasive Method for Tibial Mechanical Axis Location</h1>
               <h2 className="text-teal-500">
@@ -49,7 +49,7 @@ export default function Design() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-screen-xl gap-10 px-6 py-16 md:px-16 lg:grid-cols-2">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Goal:</h4>
             <div className="md:items-top grid grid-cols-3 items-center justify-items-center gap-4">
@@ -58,7 +58,7 @@ export default function Design() {
                 alt="reference patent image"
                 width="638"
                 height="1252"
-                className="h-auto w-40 min-w-36 object-cover lg:w-[75%]"
+                className="h-auto w-40 min-w-28 object-cover md:min-w-36 lg:w-[75%]"
               />
               <p className="col-span-2 text-lg">
                 There was a mandate from leadership to build upon an previously filed patent on implantable sensors that surgeons could use to refine their cuts of the femur and the tibia
@@ -83,7 +83,7 @@ export default function Design() {
         </div>
 
         <div>
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Overview</h3>
             <p>
               As part of the innovation program, the initial mandate was to create different designs for the execution of a knee replacement surgery using the patented implantable IMU into the medullary canals of the femur and tibia.
@@ -95,7 +95,7 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Brainstorming Phase</h3>
             <div className="border border-gray-200 bg-gray-100 p-6">
               <h4 className="text-center">User Journeys</h4>
@@ -148,10 +148,10 @@ export default function Design() {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Prototyping Phase</h3>
             <h4>Challenges</h4>
-            <div className="grid grid-cols-3 gap-8 py-6">
+            <div className="grid grid-cols-1 gap-8 py-6 lg:grid-cols-3">
               <div className="rounded-2xl border border-gray-200 p-4">
                 <h5>Expanding the Team</h5>
                 <p className="pt-2 text-base">
@@ -180,7 +180,7 @@ export default function Design() {
         </div>
 
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">The Impact</h3>
             <p>
               The final prototype was presented to the board of directors in August of 2023.
@@ -207,7 +207,7 @@ export default function Design() {
         </div>
 
         <div>
-          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 text-lg">
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 text-lg md:px-16">
             <h3 className="text-center">What I learned</h3>
             <p>
               This was a passion project for the entire team.

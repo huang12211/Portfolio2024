@@ -14,8 +14,8 @@ const ProjectPopup = (props: {
     return (
       <>
         <div className="fixed right-0 top-0 h-screen w-full bg-gray-700 bg-opacity-50">
-          <div className="absolute left-1/2 top-1/2 -ml-[40%] -mt-[40%] h-auto max-h-[650px] w-5/6 overflow-hidden rounded-2xl border-2 bg-white shadow-lg md:left-[50%] md:top-[63%] md:-ml-80 md:-mt-96 md:h-160 md:w-160">
-            <div className="relative grid h-full grid-cols-5 gap-6 py-4 pl-4 pr-8">
+          <div className="max-h-5/6 absolute left-1/2 top-1/2 -ml-[40%] -mt-[60%] w-5/6 overflow-hidden rounded-2xl border-2 bg-white shadow-lg md:left-[50%] md:top-[63%] md:-ml-80 md:-mt-96 md:h-160 md:max-h-[650px] md:w-160">
+            <div className="relative grid h-full grid-cols-5 gap-6 overflow-y-auto py-4 pl-4 pr-8">
               <Image
                 src={props.image_src}
                 alt={props.image_alt}
