@@ -21,7 +21,7 @@ export default function Design() {
     <>
       <div className="bg-gray-100 bg-opacity-30">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <h1>Elaine's Easecipes</h1>
               <h2 className="text-orange-400">
@@ -35,7 +35,7 @@ export default function Design() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-screen-xl gap-10 px-6 py-16 md:px-16 lg:grid-cols-2">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Vision</h4>
             <p className="text-lg">
@@ -50,7 +50,7 @@ export default function Design() {
             </p>
           </div>
         </div>
-        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
           <h3 className="pt-0 text-center">Context</h3>
           <p>
             This website's main purpose is to act as a source of inspiration whenever I find myself getting tired of reusing the same 7 recipes that come top of mind when I'm out grocery shopping.
@@ -60,7 +60,7 @@ export default function Design() {
       </div>
 
       <div className="bg-white">
-        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
           <h3 className="text-center">Design Phase</h3>
           <h4 className="text-lg font-semibold">Wireframes in Figma</h4>
           <div>
@@ -77,7 +77,7 @@ export default function Design() {
         </div>
       </div>
       <div className="bg-gray-100 bg-opacity-30">
-        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
           <h3 className="text-center">Development Phase</h3>
           <h3 className="text-lg font-semibold">Tech Stack</h3>
           <p>
@@ -98,7 +98,7 @@ export default function Design() {
       </div>
 
       <div className="bg-white">
-        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+        <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
           <h3 className="text-center">What I've Learnt</h3>
           <p>
             This product gave the me chance to learn the essentials web development and has facilitated my communication with the software developpers that I work with on a day to day basis.
@@ -108,7 +108,7 @@ export default function Design() {
       </div>
 
       <div className="bg-gray-100 bg-opacity-30">
-        <div className="grid-row-4 mx-auto my-10 grid max-w-screen-xl gap-4 px-16 text-lg">
+        <div className="grid-row-4 mx-auto my-10 grid max-w-screen-xl gap-4 px-6 text-lg md:px-16">
           <h3 className="text-center">The Current Product</h3>
           <p>
             Please click on the following link to peruse the current state of the website:
@@ -133,7 +133,7 @@ export default function Design() {
             alt="recipe page for blueberry muffins"
             width="400"
             height="1024"
-            className="mx-auto h-auto w-1/2 rounded-xl border border-gray-200 md:w-2/5 lg:w-2/6"
+            className="mx-auto h-auto w-full rounded-xl border border-gray-200 md:w-2/5 lg:w-2/6"
           />
         </div>
       </div>

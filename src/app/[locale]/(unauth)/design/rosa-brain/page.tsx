@@ -23,7 +23,7 @@ export default function Design() {
     <>
       <div className="bg-gray-100 bg-opacity-30">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <div className="flex flex-row justify-center gap-4">
                 <h1>ROSA ONE Brain</h1>
@@ -66,7 +66,7 @@ export default function Design() {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 lg:grid-cols-2 ">
+        <div className="mx-auto grid max-w-screen-xl gap-10 p-16 px-6 lg:grid-cols-2 ">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Goal:</h4>
             <p className="text-lg">
@@ -90,7 +90,7 @@ export default function Design() {
       </div>
       <div className="bg-white">
         <div>
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="py-4 text-center">Early Days...</h3>
             <h4>Qualitative Customer Interviews</h4>
             <p>
@@ -227,7 +227,7 @@ export default function Design() {
             </div>
           </div>
 
-          <div className="mx-auto max-w-screen-xl px-16">
+          <div className="mx-auto max-w-screen-xl px-6 md:px-16">
             <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-0 border-2 bg-white px-10 py-4 text-lg md:gap-4">
               <h4>Key Insights</h4>
               <div className="grid grid-cols-1 grid-rows-3 gap-8 pb-6 md:grid-cols-3 md:grid-rows-1">
@@ -285,7 +285,7 @@ export default function Design() {
 
       <div className="bg-gray-100 bg-opacity-30">
         <div className="">
-          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Design Phase</h3>
             <h4>Establishing a new Design System</h4>
             <div className="grid grid-cols-1 justify-items-center gap-4 lg:grid-cols-2 lg:gap-10">
@@ -355,7 +355,7 @@ export default function Design() {
 
       <div className="bg-white pb-4">
         <div className="">
-          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Verification & Validation Phase</h3>
             <div className="py-4">
               <h4>Laying the Foundations of Partnerships</h4>
@@ -393,14 +393,14 @@ export default function Design() {
                   alt="Cucumber Automatic Testing Logo"
                   width="200"
                   height="200"
-                  className="mx-auto h-44 w-auto min-w-36 object-cover lg:h-36"
+                  className="mx-auto w-auto object-cover md:h-44 md:min-w-36 lg:h-36"
                 />
                 <Image
                   src="/assets/images/playwrightLogo.png"
                   alt="Playwright Logo"
                   width="690"
                   height="448"
-                  className="mx-auto h-40 w-auto min-w-36 object-cover lg:h-32"
+                  className="mx-auto w-auto object-cover md:h-40 md:min-w-36 lg:h-32"
                 />
               </div>
               <div className="content-center px-4 lg:col-span-2">
@@ -422,7 +422,7 @@ export default function Design() {
 
       <div className="bg-gray-100 bg-opacity-30">
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-4 text-lg">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">The Impact</h3>
             <p className="text-center">Only pre-market results are reported as the project is still ongoing...</p>
             <p className="pb-4 text-center text-gray-400">_______</p>
@@ -447,7 +447,7 @@ export default function Design() {
 
       <div className="bg-white pb-4">
         <div>
-          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-16 text-lg">
+          <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 text-lg md:px-16">
             <h3 className="text-center">What I've learnt so far...</h3>
             <p>
               Unlike previous projects that I had worked on, this project was quite severely underfunded and was always lacking ressources.

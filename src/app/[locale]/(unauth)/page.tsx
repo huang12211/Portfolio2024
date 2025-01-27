@@ -38,7 +38,7 @@ export default function Index(props: { params: { locale: string } }) {
   return (
     <>
       <div className="bg-teal-500 bg-opacity-20 py-10 sm:py-10 md:py-20">
-        <div className="mx-auto grid max-w-screen-xl grid-cols-1 grid-rows-2 items-center justify-items-center gap-4 px-16 sm:grid-cols-2 sm:grid-rows-1 sm:px-4 md:gap-16">
+        <div className="mx-auto grid max-w-screen-xl grid-cols-1 grid-rows-2 items-center justify-items-center gap-4 px-6 sm:grid-cols-2 sm:grid-rows-1 sm:px-4 md:gap-16 md:px-16">
           <Cartoon />
           <div className="h-auto w-full pt-4 sm:px-4 sm:pt-0">
             <div>

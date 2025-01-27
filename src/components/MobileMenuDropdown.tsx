@@ -10,7 +10,7 @@ const MobileMenuDropdown = (props: {
   if (props.trigger === true) {
     return (
       <>
-        <div className="absolute right-14 top-16 text-right">
+        <div className="absolute right-4 top-16 text-right">
           <ul className="flex flex-col gap-4 rounded-lg border bg-white px-6 py-4 shadow-lg">
             <li className="font-semibold hover:text-teal-700"><Link href="/development/">{t('development_link')}</Link></li>
             <li className="font-semibold hover:text-teal-700"><Link href="/design/">{t('design_link')}</Link></li>

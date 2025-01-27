@@ -22,7 +22,7 @@ export default function Design(props: { params: { locale: string } }) {
     <>
       <div className="pb-4">
         <div className="bg-gray-200">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 p-16">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <h1 className="content-center text-center font-[Georgia] text-4xl font-black">{t('page_title')}</h1>
               <h2 className="content-center text-center font-[Georgia] text-2xl font-black italic text-sky-500">
@@ -40,7 +40,7 @@ export default function Design(props: { params: { locale: string } }) {
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl grid-cols-2 gap-4 px-16 py-6 text-lg">
+        <div className="mx-auto grid max-w-screen-xl grid-cols-1 gap-4 p-6 text-lg md:grid-cols-2 md:px-16">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 p-4">
             <h4>The Goal:</h4>
             <p className="text-lg">
@@ -75,7 +75,7 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">Business Context</h3>
             <p>
               The most common spinal procedures performed in out-patient centers at the time were spinal fusions to treat
@@ -88,18 +88,18 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="mx-auto mb-10 max-w-screen-xl">
-          <div className="mx-16 flex h-80 bg-sky-100 py-8">
+          <div className="mx-6 flex h-80 overflow-hidden bg-sky-100 py-8 md:mx-16">
             <Image
               src="/assets/images/NaviScoutSystem.png"
               alt="NaviScout System"
               width={1777}
               height={773}
-              className="mx-auto h-full w-auto max-w-min object-cover"
+              className="m-auto h-4/5 w-auto max-w-min object-cover md:h-full"
             />
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">Early Insights from the Field</h3>
             <h4>Customer Interviews</h4>
             <p>
@@ -107,8 +107,8 @@ export default function Design(props: { params: { locale: string } }) {
               So we ran multiple user interviews to identify what their needs were. Three key insights were revealed which became part of the main objectives
               that the design optimized for.
             </p>
-            <div className="grid grid-cols-2 gap-8 py-6 md:grid-cols-3">
-              <div>
+            <div className="grid grid-cols-1 gap-8 py-6 md:grid-cols-3">
+              <div className="border p-4">
                 <Image
                   src="/assets/images/ZiehmVision.png"
                   alt="Ziehm Vision RFD Imaging System"
@@ -122,7 +122,7 @@ export default function Design(props: { params: { locale: string } }) {
                   with the equipment that they already had on-hand.
                 </p>
               </div>
-              <div>
+              <div className="border p-4">
                 <Image
                   src="/assets/images/InstrumentHandoff.jpg"
                   alt="Insrument Handoff"
@@ -135,7 +135,7 @@ export default function Design(props: { params: { locale: string } }) {
                   Surgeons wanted a system and set of instruments that did not interfere with their existing surgical techniques.
                 </p>
               </div>
-              <div>
+              <div className="border p-4">
                 <Image
                   src="/assets/images/BackTable.jpg"
                   alt="Cluttered OR Back Table"
@@ -186,7 +186,7 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">Design Phase</h3>
             <h4>Mockups</h4>
             <p>
@@ -219,7 +219,7 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">Verification & Validation Testing</h3>
             <h4>Verification & Validation Lead</h4>
             <p>
@@ -232,7 +232,7 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">The Impact</h3>
             <p>
               Only pre-market results are reported as the project was discontinued prior to its official launch in February of 2022.
@@ -291,7 +291,7 @@ export default function Design(props: { params: { locale: string } }) {
           </div>
         </div>
         <div className="">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-16 py-10 text-base">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-10 text-base md:px-16">
             <h3 className="text-center">Lessons Learnt</h3>
             <p>
               This was a relatively fast-paced project given the scope and industry in which I was operating in. Our marketing director
