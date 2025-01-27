@@ -1,3 +1,10 @@
+## [1.11.7](https://github.com/huang12211/Portfolio2024/compare/v1.11.6...v1.11.7) (2025-01-27)
+
+
+### Bug Fixes
+
+* mobile display optimization on all pages ([23663c3](https://github.com/huang12211/Portfolio2024/commit/23663c36ccfdd3bf22fe7805094bccaf51a27f81))
+
 ## [1.11.6](https://github.com/huang12211/Portfolio2024/compare/v1.11.5...v1.11.6) (2025-01-25)
 
 
