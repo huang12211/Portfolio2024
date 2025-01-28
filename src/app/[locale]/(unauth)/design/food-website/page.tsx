@@ -25,17 +25,17 @@ export default function Design() {
             <div className="flex flex-col gap-2">
               <h1>Elaine's Easecipes</h1>
               <h2 className="text-orange-400">
-                A Journal of all of my Family's Favourite Food Recipes
+                A Website of all of my Family's Favourite Food Recipes
               </h2>
             </div>
             <div className="caseIntro">
               <p>
-                This is a personal project where I journal all recipes that I have collected from my time with friends and loved ones. Disclaimer: This is still a work in progress...
+                This is a personal project where I keep a record of all recipes that I have collected from my time with friends and loved ones. Disclaimer: This is still a work in progress...
               </p>
             </div>
           </div>
         </div>
-        <div className="mx-auto grid max-w-screen-xl gap-10 px-6 py-16 md:px-16 lg:grid-cols-2">
+        <div className="mx-auto max-w-screen-xl gap-10 px-6 py-16 md:px-16">
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Vision</h4>
             <p className="text-lg">
@@ -43,12 +43,12 @@ export default function Design() {
               I would love to eventually create a hard-copy version of this that I could then pass on to my children.
             </p>
           </div>
-          <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
+          {/* <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>My Role</h4>
             <p className="text-lg">
               Designer, developer and principal user.
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
           <h3 className="pt-0 text-center">Context</h3>

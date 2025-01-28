@@ -43,13 +43,13 @@ export default function Design() {
             </div>
             <div className="caseIntro">
               <p>
-                ROSA ONE Brain was the first to surgical robot to market for SEEG procedurees and maintains the majority of the North American SEEG market. Since then,
-                it has evolved to assist surgeons in completing Deep Brain Stimulation, Responsive Neurostimulation, Laser Ablation, Biopsies, and Transnasal and Ventricular Endoscopic Procedures.
-                This is the product that I actively work on today.
+                ROSA ONE Brain was
+                <span className="font-medium text-pink-500">the first neurosurgical robot</span>
+                {' '}
+                to market and is still one of the most beloved robots in the USA.
               </p>
-              <p className="caseNonDisclosure">
-                To comply with my non-disclosure agreement, I have omitted confidential information in this case study.
-              </p>
+              <p>This is the product that I actively work on today.</p>
+              <p className="caseNonDisclosure">To comply with my non-disclosure agreement, I have omitted confidential information in this case study.</p>
               <div className="mx-auto overflow-hidden">
                 <video
                   src="/assets/images/ROSABrainOverview.mp4"
@@ -70,19 +70,18 @@ export default function Design() {
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>The Goal:</h4>
             <p className="text-lg">
-              Iterate on the software and robotic features of the existing product to improve the user experience and adapt the flow to allow for the execution of a larger
-              array of neurosurgical procedures.
+              Rework the existing product to adapt the flow to allow for the execution of a larger array of neurosurgical procedures to maintain the product's competitive edge.
             </p>
           </div>
           <div className="flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4">
             <h4>My Role:</h4>
             <p className="text-lg">
-              The responsibilities that fall under my perview are:
+              I am responsible for the following aspects of the product:
             </p>
             <ul className="list-outside list-disc pl-6 text-lg italic">
               <li>definition of the new features being implemented</li>
               <li>the overall user experience while mitigating against design risks and misuse</li>
-              <li>establishing and maintaining business relationships with the local medical community</li>
+              <li>establishing and maintaining business relationships with the local medtech community</li>
               <li>verifying the performance of the features being developed</li>
             </ul>
           </div>
@@ -91,7 +90,7 @@ export default function Design() {
       <div className="bg-white">
         <div>
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
-            <h3 className="py-4 text-center">Early Days...</h3>
+            <h3 className="py-4 text-center">Identifying Growth Areas</h3>
             <h4>Qualitative Customer Interviews</h4>
             <p>
               User research at the start of the project was invaluable and was perfomed with 8 surgeons from various backgrounds. Some work primarily on trauma cases,
@@ -103,7 +102,7 @@ export default function Design() {
             {/* Eventually replace each surgeon's section with a Tabular interactive interface 1.Goals 2.Pains 3.Gains */}
             {/* Remember to mark the click as the currently active content, then hide all content, then show selected content */}
             <div className="my-10 bg-gray-200">
-              <h4 className="px-10 py-6">3 Primary Customer Profiles</h4>
+              <h4 className="px-10 py-6">Customer Profiles</h4>
               {/* Dr. J */}
               <div className="mx-8 grid grid-cols-1 gap-4 pb-4 md:grid-cols-5">
                 <div className="pt-6">
@@ -229,7 +228,7 @@ export default function Design() {
 
           <div className="mx-auto max-w-screen-xl px-6 md:px-16">
             <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-0 border-2 bg-white px-10 py-4 text-lg md:gap-4">
-              <h4>Key Insights</h4>
+              <h4>Development Opportunities</h4>
               <div className="grid grid-cols-1 grid-rows-3 gap-8 pb-6 md:grid-cols-3 md:grid-rows-1">
                 <div>
                   <Image
@@ -255,7 +254,7 @@ export default function Design() {
                   />
                   <h5>Provide More Guidance</h5>
                   <p className="pt-2 text-base">
-                    New adopter of ROSA Brain struggled to understand how advanced features were work.
+                    New adopters of ROSA Brain struggled to understand how advanced features were work.
                     Their expectactions of how the application should react to their actions illustrated to us how mistleading the existing interface
                     is and that it does not adhere to modern UI/UX conventions.
                   </p>
@@ -268,7 +267,7 @@ export default function Design() {
                     height="144"
                     className="mx-auto h-64 w-auto object-cover py-2"
                   />
-                  <h5>Give it a Face Lift</h5>
+                  <h5>Modernize the UI</h5>
                   <p className="pt-2 text-base">
                     Surgeons mentionned how dated the UI application looked. Hence, updates to the style sheet of the application are underway to
                     appeal to the next batch of surgeons currently being trained.
@@ -305,7 +304,7 @@ export default function Design() {
                 This was the first time that a coordinated effort was made to document the existing design system of the Knee, Hip and Shoulder applications so as
                 to be able to leverage them for the more modern Brain application.
               </p>
-              <div className="hidden items-center lg:flex">
+              <div className="hidden items-center lg:grid lg:grid-cols-1">
                 <Image
                   src="/assets/images/ROSAOneApp.png"
                   alt="ROSA One Application Screen"
@@ -423,7 +422,7 @@ export default function Design() {
       <div className="bg-gray-100 bg-opacity-30">
         <div className="">
           <div className="mx-auto flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
-            <h3 className="text-center">The Impact</h3>
+            <h3 className="text-center">Impact</h3>
             <p className="text-center">Only pre-market results are reported as the project is still ongoing...</p>
             <p className="pb-4 text-center text-gray-400">_______</p>
             <div className="flex flex-col gap-2 bg-gray-200 px-6 py-10 text-center">
@@ -431,11 +430,9 @@ export default function Design() {
                 17
                 <span className="impactPercent">%</span>
               </p>
-              <p className="impactChange">expected DECREASE in </p>
+              <p className="impactChange">DECREASE in </p>
               <p className="impactMetric">Patient Registration Time</p>
-              <p className="impactChange pt-6">
-                This is one the main objectives of the new product.
-              </p>
+              {/* <p className="impactChange pt-6">This is one the main objectives of the new product.</p> */}
             </div>
             <p className="pt-4 text-center italic text-gray-500">
               For confidentiality reasons I have omitted the actual values for these metrics.
