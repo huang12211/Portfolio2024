@@ -1,3 +1,10 @@
+## [1.11.8](https://github.com/huang12211/Portfolio2024/compare/v1.11.7...v1.11.8) (2025-01-28)
+
+
+### Bug Fixes
+
+* reformulate home page content ([77553cd](https://github.com/huang12211/Portfolio2024/commit/77553cda53765b0986879ead714b81c0a1bee8fc))
+
 ## [1.11.7](https://github.com/huang12211/Portfolio2024/compare/v1.11.6...v1.11.7) (2025-01-27)
 
 
