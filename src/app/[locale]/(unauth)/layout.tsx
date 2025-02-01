@@ -27,13 +27,13 @@ export default function Layout(props: {
             </Link>
           </li>
           <li className="hidden sm:flex sm:h-full sm:items-center sm:hover:border-b-2 sm:hover:border-teal-700 sm:hover:text-teal-700">
-            <Link href="/development/">
-              {t('development_link')}
+            <Link href="/design/">
+              {t('design_link')}
             </Link>
           </li>
           <li className="hidden sm:flex sm:h-full sm:items-center sm:hover:border-b-2 sm:hover:border-teal-700 sm:hover:text-teal-700">
-            <Link href="/design/">
-              {t('design_link')}
+            <Link href="/development/">
+              {t('development_link')}
             </Link>
           </li>
           <li className="hidden sm:flex sm:h-full sm:items-center sm:hover:border-b-2 sm:hover:border-teal-700 sm:hover:text-teal-700">

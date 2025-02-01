@@ -45,4 +45,22 @@
   .imageLabel {
     @apply text-center italic text-base text-gray-400;
   }
+  .resumeSectionTitle {
+    @apply text-left font-[Georgia] font-black uppercase text-teal-600 border-b-4 border-teal-600 text-lg md:text-xl lg:text-2xl xl:text-3xl my-4;
+  }
+  .resumeSectionContent {
+    @apply text-sm md:text-base lg:text-lg xl:text-xl;
+  }
+  .company {
+    @apply font-bold;
+  }
+  .jobTitle {
+    @apply text-teal-600 font-bold;
+  }
+  .jobDescription {
+    @apply list-disc list-outside ml-8 mb-4;
+  }
+  .entryDate {
+    @apply flex flex-row justify-between gap-4;
+  }
 }
