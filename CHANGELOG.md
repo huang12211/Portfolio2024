@@ -1,3 +1,10 @@
+## [1.11.9](https://github.com/huang12211/Portfolio2024/compare/v1.11.8...v1.11.9) (2025-02-01)
+
+
+### Bug Fixes
+
+* translated resume to html ([3536b42](https://github.com/huang12211/Portfolio2024/commit/3536b429e2bfcd6a4de97c65691f82ada75352b8))
+
 ## [1.11.8](https://github.com/huang12211/Portfolio2024/compare/v1.11.7...v1.11.8) (2025-01-28)
 
 
