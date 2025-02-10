@@ -1,3 +1,10 @@
+## [1.11.10](https://github.com/huang12211/Portfolio2024/compare/v1.11.9...v1.11.10) (2025-02-10)
+
+
+### Bug Fixes
+
+* link to food website deployed on render ([1dc4b40](https://github.com/huang12211/Portfolio2024/commit/1dc4b40309e97411b96c7f9b9e3ce6d965dd6538))
+
 ## [1.11.9](https://github.com/huang12211/Portfolio2024/compare/v1.11.8...v1.11.9) (2025-02-01)
 
 
