@@ -4,8 +4,6 @@ import withBundleAnalyzer from '@next/bundle-analyzer';
 import { withSentryConfig } from '@sentry/nextjs';
 import createJiti from 'jiti';
 import withNextIntl from 'next-intl/plugin';
-// import path from 'node:path';//Added for PDFWindow
-// import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const jiti = createJiti(fileURLToPath(import.meta.url));
 
@@ -17,12 +15,9 @@ const bundleAnalyzer = withBundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
 });
 
-// //Added for PDFWindow
-// const pdfjsDistDir = path.dirname("pdfjs-dist/package.json");
-// const cMapsDir = path.join(pdfjsDistDir, "cmaps");
-// const standardFontsDir = path.join(pdfjsDistDir, "standard_fonts");
-// const pdfWorkerPath = path.join(pdfjsDistDir, "build", "pdf.worker.min.mjs");
-// //Added for PDFWindow
+// Code added to deploy to Github Pages //
+const isProd = process.env.NODE_ENV === 'production';
+// Code added to deploy to Github Pages //
 
 /** @type {import('next').NextConfig} */
 export default withSentryConfig(
@@ -35,43 +30,14 @@ export default withSentryConfig(
       reactStrictMode: true,
       experimental: {
         serverComponentsExternalPackages: ['@electric-sql/pglite'],
-        // serverActions: true, //Added for PDFWindow
       },
-      // webpack: (config) => { //Added for PDFWindow
-      //   config.resolve.alias.canvas = false;
-
-      //   config.plugins.push(
-      //       new CopyWebpackPlugin({
-      //           patterns: [
-      //               { from: cMapsDir, to: "static/chunks/pdfjs/cmaps/" },
-      //           ],
-      //       })
-      //   );
-
-      //   config.plugins.push(
-      //       new CopyWebpackPlugin({
-      //           patterns: [
-      //               {
-      //                   from: standardFontsDir,
-      //                   to: "static/chunks/pdfjs/standard_fonts/",
-      //               },
-      //           ],
-      //       })
-      //   );
-
-      //   config.plugins.push(
-      //       new CopyWebpackPlugin({
-      //           patterns: [
-      //               {
-      //                   from: pdfWorkerPath,
-      //                   to: "static/chunks/pdfjs/build/pdf.worker.min.js",
-      //               },
-      //           ],
-      //       })
-      //   );
-
-      //   return config;
-      // },//Added for PDFWindow
+      // Code added to deploy to Github Pages //
+      images: {
+        unoptimized: true,
+      },
+      assetPrefix: isProd ? '/Portfolio2024' : '',
+      basePath: isProd ? '/Portfolio2024' : '',
+      // output: 'export',
     }),
   ),
   {

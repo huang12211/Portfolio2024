@@ -2,6 +2,7 @@
   "name": "elaine-portfolio-2024",
   "version": "1.11.8",
   "author": "huang12211 (https://github.com/huang12211)",
+  "homepage": "https://huang12211.github.io/Portfolio2024",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",
     "dev:next": "next dev",
@@ -26,7 +27,7 @@
     "test-storybook:ci": "start-server-and-test serve-storybook http://127.0.0.1:6006 test-storybook",
     "prepare": "husky",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@clerk/localizations": "^2.5.8",
