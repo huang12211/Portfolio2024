@@ -37,7 +37,7 @@ export default withSentryConfig(
       },
       assetPrefix: isProd ? '/Portfolio2024' : '',
       basePath: isProd ? '/Portfolio2024' : '',
-      // output: 'export',
+      output: 'export',
     }),
   ),
   {
