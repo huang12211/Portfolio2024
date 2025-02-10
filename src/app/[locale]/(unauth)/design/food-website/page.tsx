@@ -113,7 +113,7 @@ export default function Design() {
           <p>
             Please click on the following link to peruse the current state of the website:
             <Link
-              href="https://huang12211.github.io/ElaineFoodWebsite/"
+              href="https://elainefoodwebsite-frontend.onrender.com/"
               target="_blank>"
               className="text-sky-500 hover:underline"
             >
