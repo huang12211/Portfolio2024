@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 import { ProjectCard } from '@/components/ProjectCard';
+import { ProjectCardInProgress } from '@/components/ProjectCardInProgress';
 // import { ProjectCardInProgress } from '@/components/ProjectCardInProgress';
 
 export async function generateMetadata(props: { params: { locale: string } }) {
@@ -29,6 +30,18 @@ export default function Development(props: { params: { locale: string } }) {
         <div className="relative">
           <h2 className="text-gray-500">MACHINE LEARNING / AI</h2>
           <div className="flex flex-wrap items-center justify-center justify-items-center gap-4 py-2">
+            <ProjectCardInProgress
+              card_image_src="/assets/images/productCharacterization.png"
+              image_alt="AI Agent"
+              title="Product Characterization Report Generator"
+            />
+            <ProjectCard
+              card_image_src="/assets/images/testCaseGenerator.png"
+              popup_image_src="/assets/images/tcGeneratorGraph.png"
+              image_alt="AI Agent"
+              title="Test Case Generator"
+            />
+
             <ProjectCard
               card_image_src="/assets/images/FacialEmotions.png"
               popup_image_src="/assets/images/FacialEmotionsPopupImg.png"

@@ -28,9 +28,7 @@ const ProjectCard = (props: {
             />
           </div>
           <div className="my-2 h-12 w-full content-center px-2 text-base font-bold">
-            <p>
-              {props.title}
-            </p>
+            <p>{props.title}</p>
           </div>
         </div>
       </button>
