@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/huang12211/Portfolio2024/compare/v1.11.10...v1.12.0) (2025-07-04)
+
+
+### Features
+
+* project card in progress implemented with hover effects ([6565ce0](https://github.com/huang12211/Portfolio2024/commit/6565ce0233c990420dd437b7f36b6a8b0410b1b3))
+
 ## [1.11.10](https://github.com/huang12211/Portfolio2024/compare/v1.11.9...v1.11.10) (2025-02-10)
 
 
