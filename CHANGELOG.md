@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/huang12211/Portfolio2024/compare/v1.12.0...v1.12.1) (2025-07-09)
+
+
+### Bug Fixes
+
+* typo in test case generator dev project card pop-up content ([5047261](https://github.com/huang12211/Portfolio2024/commit/5047261c7d1db935405b587e39f12d0c62a8c0e3))
+
 # [1.12.0](https://github.com/huang12211/Portfolio2024/compare/v1.11.10...v1.12.0) (2025-07-04)
 
 
