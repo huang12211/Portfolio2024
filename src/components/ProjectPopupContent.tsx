@@ -199,7 +199,7 @@ const ProjectPopupContent = (props: {
             <p>
               A locally hosted Agentic Workflow that leverages both Self-RAG and Human-in-the-loop techniques.
               It ingests software requirements and uses Llama3.1 to generate test cases in a strict output format.
-              The AI_Agent can be run in Langgraph Studio if desired.
+              The AI Agent can be run in Langgraph Studio if desired.
             </p>
             <p className="pt-2 font-bold underline">Project Takeaways:</p>
             <p>
