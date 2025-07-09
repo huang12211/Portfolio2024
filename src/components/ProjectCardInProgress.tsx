@@ -8,7 +8,7 @@ const ProjectCardInProgress = (props: {
 }) => {
   return (
     <>
-      <div className="group relative h-80 w-72 rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl">
+      <div className="group relative h-80 w-72 rounded-xl border-2 shadow-lg duration-150 hover:scale-105 hover:shadow-xl">
         <div className="content-center group-hover:opacity-20">
           <div className="z-2 h-64 overflow-hidden p-2">
             <Image
@@ -16,7 +16,7 @@ const ProjectCardInProgress = (props: {
               alt={props.image_alt}
               width="144"
               height="144"
-              className="mx-auto h-64 w-auto object-cover"
+              className="mx-auto h-64 w-auto rounded-xl object-cover"
             />
           </div>
           <div className="z-2 my-2 h-12 w-auto content-center px-2 text-base font-bold">

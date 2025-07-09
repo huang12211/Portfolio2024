@@ -17,14 +17,14 @@ const ProjectCard = (props: {
       <button
         onClick={() => openPopup(true)}
       >
-        <div className="h-80 w-72 rounded-xl shadow-lg duration-150 hover:scale-105 hover:shadow-xl">
+        <div className="h-80 w-72 rounded-xl border-2 shadow-lg duration-150 hover:scale-105 hover:shadow-xl">
           <div className="h-64 overflow-hidden p-2">
             <Image
               src={props.card_image_src}
               alt={props.image_alt}
               width="144"
               height="144"
-              className="mx-auto h-64 w-auto object-cover"
+              className="mx-auto h-64 w-auto rounded-xl object-cover"
             />
           </div>
           <div className="my-2 h-12 w-full content-center px-2 text-base font-bold">
