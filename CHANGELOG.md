@@ -1,3 +1,10 @@
+## [1.12.2](https://github.com/huang12211/Portfolio2024/compare/v1.12.1...v1.12.2) (2025-07-09)
+
+
+### Bug Fixes
+
+* added borders to project cards in dev page ([8e8c515](https://github.com/huang12211/Portfolio2024/commit/8e8c51578b2cff5470c680a00e069cb1dbadc4be))
+
 ## [1.12.1](https://github.com/huang12211/Portfolio2024/compare/v1.12.0...v1.12.1) (2025-07-09)
 
 
