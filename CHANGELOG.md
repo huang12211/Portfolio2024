@@ -1,3 +1,10 @@
+## [1.12.4](https://github.com/huang12211/Portfolio2024/compare/v1.12.3...v1.12.4) (2025-07-27)
+
+
+### Bug Fixes
+
+* more typos in ROSA One Brain page fixed ([48dd5f1](https://github.com/huang12211/Portfolio2024/commit/48dd5f1dfa7a80fce04a88014d72ffab65b23f8f))
+
 ## [1.12.3](https://github.com/huang12211/Portfolio2024/compare/v1.12.2...v1.12.3) (2025-07-27)
 
 
