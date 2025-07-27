@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/huang12211/Portfolio2024/compare/v1.12.2...v1.12.3) (2025-07-27)
+
+
+### Bug Fixes
+
+* typos in design pages ([ceba344](https://github.com/huang12211/Portfolio2024/commit/ceba3448b77d72f8311419ea34cf2289e701fb4c))
+
 ## [1.12.2](https://github.com/huang12211/Portfolio2024/compare/v1.12.1...v1.12.2) (2025-07-09)
 
 
