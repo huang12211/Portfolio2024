@@ -44,7 +44,7 @@ export default function Design() {
             <div className="caseIntro">
               <p>
                 ROSA ONE Brain was
-                <span className="font-medium text-pink-500">the first neurosurgical robot</span>
+                <span className="font-medium text-pink-500"> the first neurosurgical robot</span>
                 {' '}
                 to market and is still one of the most beloved robots in the USA.
               </p>
@@ -83,6 +83,7 @@ export default function Design() {
               <li>the overall user experience while mitigating against design risks and misuse</li>
               <li>establishing and maintaining business relationships with the local medtech community</li>
               <li>verifying the performance of the features being developed</li>
+              <li>all design, usability and risk documentation required for FDA/EC clearance</li>
             </ul>
           </div>
         </div>
@@ -338,7 +339,7 @@ export default function Design() {
 
             <h4>Periodic Releases & Exploratory Testing</h4>
             <p>
-              Every quarter, a new release was presented to the design surgeons so that iterative feedback could be received.
+              Every quarter, a new Figma prototype and/or release of the clinical application was presented to the design surgeons so that iterative feedback could be received.
               The system design team also put in place the habit of systematically performing non-regression and exploratory tests after each sprint to help to identify both design and technical debt.
             </p>
 
