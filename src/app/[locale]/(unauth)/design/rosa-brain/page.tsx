@@ -79,7 +79,7 @@ export default function Design() {
               I am responsible for the following aspects of the product:
             </p>
             <ul className="list-outside list-disc pl-6 text-lg italic">
-              <li>definition of the new features being implemented</li>
+              <li>definition of the new software registration features being implemented</li>
               <li>the overall user experience while mitigating against design risks and misuse</li>
               <li>establishing and maintaining business relationships with the local medtech community</li>
               <li>verifying the performance of the features being developed</li>
@@ -328,10 +328,10 @@ export default function Design() {
               <p className="lg:col-span-3">
                 Having learnt from previous projects, the team moved to using Figma and took full advantage of Figma's protyping feature to validate UI
                 changes with the surgeons prior to implementation. This helped the team to drastically decrease the development time of a software feature
-                due to our prototypes being better able to communicate the UI's desired behavior. Using Figma prototypes also allowed us to
+                due to our prototypes being better able to communicate the UI's desired behavior. Using Figma prototypes allowed us to
                 observe surgeons using the proposed designs without interference, leading to the quick identification of each design's weaknesses.
 
-                Using Figma prototypes also greatly reduced the amount of information that tends to get lost in translation between product/design
+                Using Figma prototypes greatly reduced the amount of information that tends to get lost in translation between product/design
                 and the software team that is implementing the feature.
               </p>
             </div>
@@ -447,21 +447,16 @@ export default function Design() {
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 text-lg md:px-16">
             <h3 className="text-center">What I've learnt so far...</h3>
             <p>
-              Unlike previous projects that I had worked on, this project was quite severely underfunded and was always lacking ressources.
-              This brought about a significant challenge to the maintenance of the team's morale. In addition, I found that scrum teams that bridged
-              two different time zones worked most efficiently when each member had at least one other person in their same craft working in their
-              same time zone. My belief is that a team member's sense of belonging and team morale is boosted when members are able to brainstorm and
-              troubleshoot problems together in person or at least in a live and interactive format.
-            </p>
-            <p>
-              From a technical perspective, unlike previous projects, I was awarded the opportunity to own the definition and implementation of complex
+              This project awarded me the opportunity to own the vision, definition and implementation of complex
               software and robotic features. Exposing me to the basics of robotics and the technical difficulties related to the practical implementation of
-              these sub-systems. Working hand in hand with the software team allowed me to quickly identify flaws in my inital design proposals that from an
-              implementation point of view were not ideal, or simply were not feasible.
+              these sub-systems. Working hand in hand with the software team allowed me to quickly identify flaws in my inital Figma design proposals that from an
+              implementation point of view were eitehr not ideal, or simply were not feasible given the timeline. This allows for open discussion on
+              what was considered minimally viable for the feature we wanted to ultimately implement in the final product given the timeline.
             </p>
             <p>
-              All in all, the entire team has achieved a great amount in the redesign of the existing product. I cannot wait to see how surgeons will react
-              to the release of the new updated version of this beloved device.
+              All in all, the entire team has achieved a great amount in the redesign of the existing product.
+              At our peak, my scrum team of 5 software developers and 3 system designers were able to achieve a huge milestone by implementing an entire patient registration workflow within 16 weeks.
+              I cannot wait to see how surgeons will react to the release of the new updated version of this beloved device.
             </p>
           </div>
         </div>

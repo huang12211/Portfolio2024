@@ -212,9 +212,9 @@ export default function Design() {
             <p>
               This was a passion project for the entire team.
               It was the first instance in my corporate career where I had the chance to work alongside individuals who were passionate enough to work into the wee hours of the morning.
-              We spent countless extra hours over our lunch breaks, and after-work on this project to be able to deliver it on time.
-              It was such a joy working in such a collaborative and productive environemnt that once the project was over, returning to normal everyday work seemed so dull.
-              I've since learnt that I thrive in a fast-paced environement and tend to perform best when under pressure as I treat is as an invigorating challenge.
+              We spent countless extra hours over our lunch breaks, and after work on this project to be able to deliver it on time.
+              It was such a joy working in such a collaborative and productive environment that once the project was over, returning to normal everyday work seemed so dull.
+              I've since learnt that I thrive in a fast-paced environment and tend to perform best when under pressure as I treat is as an invigorating challenge.
 
             </p>
           </div>
