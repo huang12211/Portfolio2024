@@ -179,7 +179,7 @@ const ProjectPopupContent = (props: {
         </>
       );
 
-    case 'Test Case Generator':
+    case 'Test Case Generator (Multi-Agent System)':
       return (
         <>
           <div>
@@ -225,6 +225,55 @@ const ProjectPopupContent = (props: {
               <Image
                 src="/assets/Icons - General/chroma.png"
                 alt="Chroma Logo"
+                width={70}
+                height={70}
+                className="h-12 w-auto"
+              />
+            </div>
+          </div>
+        </>
+      );
+
+    case 'AI Literature Review Generator':
+      return (
+        <>
+          <div>
+            <div>
+              <p className="flex flex-wrap items-end gap-1">
+                <p className="pt-2 font-bold underline">Codebase:</p>
+                <a
+                  href="https://github.com/huang12211/Local_MedDevMate"
+                  target="_blank>"
+                  className="text-sky-600 hover:underline"
+                >
+                  Github Repository
+                </a>
+              </p>
+            </div>
+            <p className="pt-2 font-bold underline">Project Description:</p>
+            <p>
+              This can help you to fulfill risk management documentation per ISO 14971 for new products.
+              An automated Agent Flow designed to generate a literature review summary to identify known risks associated with the technology that will be integrated into the medical device under developement.
+              It ingests a csv/xlsx export from any academic research database (ex: PubMed, Embase, etc.) and uses Gemini to evaluate the relevance of the articles.
+              Gemini then analyzes the relevant articles to establish the hazards, harms, complications, and adverse events that must be included in the risk management file.
+            </p>
+            <p className="pt-2 font-bold underline">Project Takeaways:</p>
+            <p>
+              Langchain can be leveraged to automate tedious tasks that are part of the FDA medical devices development lifecycle without risking revealing private enterprise data.
+            </p>
+            <p className="pt-2 font-bold underline">Tools:</p>
+            <div className="flex flex-row flex-wrap items-center gap-2 md:gap-4">
+              <Python></Python>
+              <Image
+                src="/assets/Icons - General/gemini.png"
+                alt="Gemini Logo"
+                width={3840}
+                height={2160}
+                className="h-12 w-auto"
+              />
+              <Image
+                src="/assets/Icons - General/langchain-logo.png"
+                alt="Langchain Logo"
                 width={70}
                 height={70}
                 className="h-12 w-auto"
