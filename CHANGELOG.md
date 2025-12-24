@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/huang12211/Portfolio2024/compare/v1.13.0...v1.13.1) (2025-12-24)
+
+
+### Bug Fixes
+
+* color of resume button ([3c5006b](https://github.com/huang12211/Portfolio2024/commit/3c5006b3c5a33c30a1cf3e59afed4651eb390d98))
+
 # [1.13.0](https://github.com/huang12211/Portfolio2024/compare/v1.12.4...v1.13.0) (2025-09-28)
 
 
