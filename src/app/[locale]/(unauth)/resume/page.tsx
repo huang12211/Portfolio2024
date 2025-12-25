@@ -75,22 +75,19 @@ export default function Resume(props: { params: { locale: string } }) {
           <div className="resumeSectionContent">
             <p className="resumeSectionTitle">Profile</p>
             <p>
-              Results-driven
+              Experienced Product Designer looking to
               {' '}
-              <span className="font-medium text-teal-600">Senior Product Designer </span>
+              <span className="font-bold">pivot </span>
               {' '}
-              with a strong foundation in
+              back into software development. I have experience in
               {' '}
-              <span className="font-medium text-teal-600">user-centered design</span>
+              <span className="font-bold">user-centered design, systems thinking, rapid prototyping</span>
               {' '}
-              and a proven ability to deliver actionable insights that drive product
+              and have driven
               {' '}
-              <span className="font-medium text-teal-600">innovation </span>
+              <span className="font-bold">innovation </span>
               in the healthcare technology industry.
-              Known for delivering products for a diverse user population, establishing relations with industry experts, and fostering cross-functional collaboration to create value-driven solutions within a
-              {' '}
-              <span className="font-medium text-teal-600">highly regulated </span>
-              environment.
+
             </p>
 
             <p className="resumeSectionTitle">Work Experience</p>
@@ -103,22 +100,55 @@ export default function Resume(props: { params: { locale: string } }) {
             </div>
             <p className="jobTitle">Senior Systems Desginer (Product)</p>
             <ul className="jobDescription">
-              <li>Lead R&D and shipped 2 novel image-based robotics/navigation products for brain, spine and orthopaedic surgery.</li>
-              <li>Navigate FDA, CE and other regulatory environments for product certification and deployment.</li>
-              <li>Direct user research to inform product decisions, balancing user needs with technical feasibility and risk.</li>
-              <li>Operate within a complex remote environment with our multinational team in English & French.</li>
+              <li>
+                Lead R&D end-to-end and
+                <span className="font-semibold">shipped 2 robotic products</span>
+                {' '}
+                for brain, spine and hip and knee surgery.
+              </li>
+              <li>
+                Build
+                <span className="font-semibold">AI tools</span>
+                {' '}
+                to expedite the documentation and software testing process,
+                <span className="font-semibold">reducing documentation time by 30%.</span>
+              </li>
+              <li>
+                Direct
+                <span className="font-semibold">user and performance testing</span>
+                {' '}
+                to inform development, balancing needs with technical feasibility and risk management.
+              </li>
+              <li>
+                Operate within a complex remote environment with our
+                <span className="font-semibold">multinational cross-functional team in English & French.</span>
+              </li>
             </ul>
             <p className="jobTitle">Innovation Program Coordinator</p>
             <ul className="jobDescription">
               <li>Fostered innovation in a 200-person R&D department, launching projects with universities, clinicians and hospitals.</li>
-              <li>Initiated market research, outreach and created proposals (including AI) that defined upcoming R&D roadmaps.</li>
-              <li>Oversaw the rapid prototyping of an AR total knee arthroplasty surgery device for which a patent was filed, and 100% investment approval from the board of directors was secured.</li>
+              <li>
+                Performed market research and
+                <span className="font-semibold">pitched 5 proposals</span>
+                {' '}
+                (some AI) that brought in a
+                <span className="font-semibold">$2M investment.</span>
+              </li>
+              <li>
+                Oversaw the rapid prototyping of an AR total knee arthroplasty surgery device for which a
+                <span className="font-semibold">patent</span>
+                {' '}
+                was filed, and
+                <span className="font-semibold">100% investment approval</span>
+                {' '}
+                from the board of directors was secured.
+              </li>
             </ul>
 
             <div className="entryDate">
               <p>
                 <span className="company">Baylis Medical Company</span>
-                , Toronto ON
+                , Mississauga ON
               </p>
               <p> Jan 2018 - Aug 2018</p>
             </div>
@@ -127,76 +157,91 @@ export default function Resume(props: { params: { locale: string } }) {
               <li>Designed, prototyped and analyzed performance tests for a medical device that treats atrial fibrillation.</li>
             </ul>
 
-            <p className="resumeSectionTitle">Education & Certifications</p>
-            <div className="entryDate mb-4">
-              <p className="font-bold">Applied Data Science Program: Leveraging AI for Effective Decision-Making</p>
-              <p className="text-teal-600">MIT Professional Education</p>
-            </div>
             <div className="entryDate">
               <p>
-                <span className="font-bold">Bachelor of Applied Science</span>
-                , in Biomedical Engineering, Co-op
+                <span className="company">University of Waterloo Electrical Engineering Department</span>
+                , Waterloo ON
               </p>
-              <p className="text-teal-600">University of Waterloo, ON</p>
+              <p> May 2017 - Dec 2017</p>
             </div>
             <p className="jobTitle">Research & Development Engineering Associate</p>
             <ul className="jobDescription">
-              <li>Graduated with Distinction (GPA: 3.87/4.00)</li>
-              <li>Baylis Medical Award (Bonesai - Capstone Design Project)</li>
+              <li>Envisioned, prototyped and tested a virtual reality device to see if biosignals (EMG, ECG, EEG) can be used to diagnose  concussions (C#, Arduino) </li>
             </ul>
+
+            <p className="resumeSectionTitle">Projects & Publications</p>
+            <div className="entryDate">
+              <p className="font-bold">Literature Review Gemini AI Assistant</p>
+              <p>Sep 2025</p>
+            </div>
+            <p className="mb-4 text-gray-600">An automated AI flow designed to generate a literature review summary to identify known risks associated with the technology that will be integrated into the medical device under development. (Python, LangChain, Gemini)</p>
+
+            <div className="entryDate">
+              <p className="font-bold">Automatic Test Case Generation - Multiple AI Agents System </p>
+              <p>Jun 2025</p>
+            </div>
+            <p className="mb-4 text-gray-600">Generate test cases automatically using proprietary specifications implemented RAG, Re-Act and Human feedback concepts. (Python, LangGraph, Ollama, Chroma)</p>
+
+            <div className="entryDate">
+              <p className="font-bold">Facial Emotion Detection Using CNNs and Transfer Learning Architectures</p>
+              <p>Jun 2024</p>
+            </div>
+            <p className="mb-4 text-gray-600">MIT Leveraging AI for Effective Decision-Making Course</p>
+
+            <div className="entryDate">
+              <p className="font-bold">Development of Cuncussion Evaluation Tools Using Life-Like VR Environments</p>
+              <p>HCI International 2018</p>
+            </div>
+            <p className="text-gray-600">Sawires, Y ., Huang, E., Gomes, A., Fernandes, K. & Wang, D. Development of Concussion Evaluation Tools Using Life-Like Virtual Reality Environments. in 326–333 (2018). doi:10.1007/978-3-319-92279-9_44</p>
 
             <p className="resumeSectionTitle">Skills</p>
             <div className="grid gap-2 md:grid-cols-2">
               <p>
-                <span className="font-bold">Languages: </span>
-                native English & French; basic Chinese (Mandarin)
+                <span className="font-bold">Programming Languages: </span>
+                Python, Matlab, SQL, C#, C++
               </p>
               <p>
                 <span className="font-bold">UI, UX: </span>
                 Figma
               </p>
               <p>
-                <span className="font-bold">Programming Languages: </span>
-                Python, SQL, Javascript, Typescript, HTML, CSS, C#, C++, C
+                <span className="font-bold">Web Development: </span>
+                JavaScript, TypeScript, React, HTML/CSS
               </p>
               <p>
-                <span className="font-bold">3D Modelling: </span>
-                Solidworks, AutoCAD
+                <span className="font-bold">AI: </span>
+                Prompt/Context Engineering, RAG, API/MCP Integration
               </p>
               <p>
                 <span className="font-bold">Project Management: </span>
                 Agile, JIRA, Confluence
               </p>
+              <p>
+                <span className="font-bold">Languages: </span>
+                Native English & French; basic Chinese (Mandarin)
+              </p>
             </div>
 
-            <p className="resumeSectionTitle">Projects & Publications</p>
-            <div className="entryDate">
-              <p className="font-bold">Facial Emotion Detection Using CNNs and Transfer Learning Architectures</p>
-              <p>Jun 2024</p>
+            <p className="resumeSectionTitle">Education & Certifications</p>
+            <div className="entryDate mb-4">
+              <p className="font-semibold">Applied Data Science Program: Leveraging AI for Effective Decision-Making</p>
+              <p className="text-right text-gray-600">MIT Professional Education</p>
             </div>
-            <p className="mb-4 text-teal-600">MIT Leveraging AI for Effective Decision-Making Course</p>
+            <div className="entryDate">
+              <p>
+                <span className="font-bold">Bachelor of Applied Science</span>
+                , in Biomedical Engineering, Co-op
+              </p>
+              <p className="text-gray-600">University of Waterloo, ON</p>
+            </div>
+            <p className="jobTitle">Research & Development Engineering Associate</p>
+            <ul className="jobDescription">
+              <li>Graduated with Distinction (GPA: 3.87/4.00)</li>
+              <li>Baylis Medical Award for Capstone Design Project ($5k)</li>
+            </ul>
 
-            <div className="entryDate">
-              <p className="font-bold">Development of Cuncussion Evaluation Tools Using Life-Like VR Environments</p>
-              <p>HCI International 2018</p>
-            </div>
-            <p className="text-teal-600">Sawires, Y ., Huang, E., Gomes, A., Fernandes, K. & Wang, D. Development of Concussion Evaluation Tools Using Life-Like Virtual Reality Environments. in 326–333 (2018). doi:10.1007/978-3-319-92279-9_44</p>
           </div>
         </div>
-        {/* <Image
-          src="/assets/images/resumeImg.png"
-          alt="resume"
-          width="1218"
-          height="1528"
-          className="mx-auto h-auto w-[95%] object-cover"
-        /> */}
-        {/* <iframe
-          src="/assets/files/Elaine_Huang_CV.pdf"
-          title="resume document"
-          width="200"
-          height="200"
-          className="mx-auto"
-        /> */}
         <Link
           href="/assets/files/Elaine_Huang_CV.pdf"
         >
