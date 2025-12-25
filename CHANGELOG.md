@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/huang12211/Portfolio2024/compare/v1.13.2...v1.13.3) (2025-12-25)
+
+
+### Bug Fixes
+
+* colors and content of resume page to match new cv ([2572319](https://github.com/huang12211/Portfolio2024/commit/2572319895517fe84a547eaaaeb6c9f4000ed8fd))
+
 ## [1.13.2](https://github.com/huang12211/Portfolio2024/compare/v1.13.1...v1.13.2) (2025-12-25)
 
 
