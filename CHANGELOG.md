@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/huang12211/Portfolio2024/compare/v1.13.1...v1.13.2) (2025-12-25)
+
+
+### Bug Fixes
+
+* new cv ([cec1baa](https://github.com/huang12211/Portfolio2024/commit/cec1baa59ed428ff624d2ef0481217f424c0e43b))
+
 ## [1.13.1](https://github.com/huang12211/Portfolio2024/compare/v1.13.0...v1.13.1) (2025-12-24)
 
 
